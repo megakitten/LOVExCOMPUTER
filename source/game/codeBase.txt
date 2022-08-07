@@ -1,0 +1,6 @@
+menu:
+    "1":
+        jump x
+
+    "2":
+        jump y

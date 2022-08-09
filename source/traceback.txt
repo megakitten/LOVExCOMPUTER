@@ -1,30 +1,47 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script-a2-scene2-mo.rpy", line 5, in script
-    show mo45 at tispot
-  File "game/script-a2-scene2-mo.rpy", line 5, in <module>
-    show mo45 at tispot
-NameError: name 'tispot' is not defined
+  File "game/script.rpy", line 156, in script
+    $ renpy.pause(delay=None)
+  File "game/script.rpy", line 156, in <module>
+    $ renpy.pause(delay=None)
+OSError: Couldn't find file 'audio/Digitizing2.mp3'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script-a2-scene2-mo.rpy", line 5, in script
-    show mo45 at tispot
-  File "renpy/ast.py", line 1197, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "renpy/ast.py", line 1156, in show_imspec
-    at_list = [ renpy.python.py_eval(i) for i in at_list ]
-  File "renpy/python.py", line 2276, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "renpy/python.py", line 2269, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script-a2-scene2-mo.rpy", line 5, in <module>
-    show mo45 at tispot
-NameError: name 'tispot' is not defined
+  File "game/script.rpy", line 156, in script
+    $ renpy.pause(delay=None)
+  File "C:\Users\19173\Dropbox\PC (2)\Desktop\renpy-7.4.11-sdk\renpy\ast.py", line 1131, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\19173\Dropbox\PC (2)\Desktop\renpy-7.4.11-sdk\renpy\python.py", line 1049, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 156, in <module>
+    $ renpy.pause(delay=None)
+  File "C:\Users\19173\Dropbox\PC (2)\Desktop\renpy-7.4.11-sdk\renpy\exports.py", line 1533, in pause
+    rv = renpy.ui.interact(mouse='pause', type='pause', roll_forward=roll_forward, pause=delay)
+  File "C:\Users\19173\Dropbox\PC (2)\Desktop\renpy-7.4.11-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\19173\Dropbox\PC (2)\Desktop\renpy-7.4.11-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs) # type: ignore
+  File "C:\Users\19173\Dropbox\PC (2)\Desktop\renpy-7.4.11-sdk\renpy\display\core.py", line 4097, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\19173\Dropbox\PC (2)\Desktop\renpy-7.4.11-sdk\renpy\audio\audio.py", line 1166, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
+  File "C:\Users\19173\Dropbox\PC (2)\Desktop\renpy-7.4.11-sdk\renpy\audio\audio.py", line 1144, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\19173\Dropbox\PC (2)\Desktop\renpy-7.4.11-sdk\renpy\audio\audio.py", line 1086, in periodic_pass
+    c.periodic()
+  File "C:\Users\19173\Dropbox\PC (2)\Desktop\renpy-7.4.11-sdk\renpy\audio\audio.py", line 517, in periodic
+    topf = load(filename)
+  File "C:\Users\19173\Dropbox\PC (2)\Desktop\renpy-7.4.11-sdk\renpy\audio\audio.py", line 70, in load
+    rv = renpy.loader.load(fn)
+  File "C:\Users\19173\Dropbox\PC (2)\Desktop\renpy-7.4.11-sdk\renpy\loader.py", line 820, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'audio/Digitizing2.mp3'.
 
-Windows-10-10.0.19041
-Ren'Py 7.4.11.2266
+Windows-10-10.0.19044 AMD64
+Ren'Py 8.0.1.22070801
 LOVExCOMPUTER 1.0
-Sat Apr  2 21:50:09 2022
+Tue Aug  9 00:31:54 2022

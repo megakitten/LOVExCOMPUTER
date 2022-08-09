@@ -148,6 +148,8 @@ label start:
 
 label playGame:
 
+    play music "audio/Digitizing.mp3"
+
     #Dialogue Begins
     show textDisplay "Welcome to the Media Archaeology Lab"
     $ renpy.pause(delay=None)

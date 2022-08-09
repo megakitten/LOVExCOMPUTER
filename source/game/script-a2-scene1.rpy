@@ -2,6 +2,9 @@
 
 label a2s1:
     scene mal 00 with Dissolve(1)
+
+    play music "audio/MeetCompute_TheChoice.mp3"
+
     "You are in the MIL, again on a late night."
     "This time you are digitizing Leisure Suit Larry for DOS (or Windows95?)."
     with hpunch

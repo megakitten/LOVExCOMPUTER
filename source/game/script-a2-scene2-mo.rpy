@@ -2,6 +2,7 @@
 
 label chooseMo:
     scene mal 00 with Dissolve(1)
+    play music "audio/DateNight.mp3"
     show mo45 at tiSpot
     mo "Hey..."
     mo "Why is it called the Media Intervention Lab?"

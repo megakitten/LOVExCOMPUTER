@@ -2,6 +2,7 @@
 
 label chooseTi:
     scene mal 00 with Dissolve(1)
+    play music "audio/DateNight.mp3"
     show ti15 at tiSpot
     ti "Hey..."
     ti "Why is it called the Media Intervention Lab?"

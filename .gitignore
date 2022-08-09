@@ -1,4 +1,6 @@
 # IGNORE images FOLDER, WHICH HAS BIG PHOTOS!
-# MAKE A DROPBOX BACKUP OF images FOLDER
+# AND audio FOLDER, WHICH HAS CHUNKY WAV FILES!
+# MAKE A DROPBOX BACKUP OF images & audio FOLDER
 
 source/game/images/
+source/game/audio/

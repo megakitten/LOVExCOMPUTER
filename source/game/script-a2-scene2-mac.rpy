@@ -2,6 +2,7 @@
 
 label chooseMac:
     scene mal 00 with Dissolve(1)
+    play music "audio/DateNight.mp3"
     show macFront
     mac "Hey..."
     mac "Why is it called the Media Intervention Lab?"

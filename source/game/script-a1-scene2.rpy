@@ -1,6 +1,9 @@
 # Act 2, Introduction
 
 label act1Introduction:
+
+    play music "audio/MeetCompute.mp3"
+
     scene mal 00 with Dissolve(1)
     show macFront
     "On another night, you are sitting in front of the iMac G3 with your laptop and an external CD drive, digitizing “If Monks Had Macs.”"

@@ -2,7 +2,14 @@
 
 label a4_date_ody:
     scene bg room
-    e "First part of the first branch begins here!"
+    e "Date Ody"
+
+    ## Brief Date Draft ##
+    # Odyssey shows you the network, some lore stuff (dream journal?)
+    # Eventually, you start dreaming about yourself,
+    #in the network, as a computer Midi rendition
+    #of daisy bell on outro? Or lyrics at least?
+
 
     return
 

@@ -12,4 +12,22 @@ label a3_thechoice:
 
     #steal code from the other choice moment in a2
 
+    show macFront at macTop
+    show ti15 at tiRight:
+        xalign 1.05
+    show ody45 at odyLeft
+
+    ### <MISSING TEXT> ###
+
+    "Who do you want to get to know better?"
+    menu:
+        _MacName:
+            jump date_mac
+
+        _TiName:
+            jump date_ti
+
+        _OdyName:
+            jump date_ody
+
     return

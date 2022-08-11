@@ -1,6 +1,6 @@
-# Act 2, Introduction
+# Act 2, Meet Compute
 
-label act1Introduction:
+label a2_meetcompute_intro:
 
     play music "audio/MeetCompute.mp3"
 
@@ -11,7 +11,7 @@ label act1Introduction:
     "You hear something behind you."
     "Could it be... {w}a voice?{\w}"
     scene mal 01 with Dissolve(0.5)
-    show mo45 at moLeft
+    show ody45 at odyLeft
     show ti15 at tiRight
     "You turn around and look at the desk holding the TI99 and Magnavox Odyssey."
     "You think nothing of it and turn back around."
@@ -91,7 +91,7 @@ label act1Introduction:
     hide 0009
     "And again."
     with hpunch
-    hide ti15 at tiSpot
+    hide ody15 at tiSpot
     show 0009 at center:
         zoom 1.9
     show ti15 at tiSpot
@@ -137,10 +137,10 @@ label act1Introduction:
     pause(0.35)
     hide 0009
     show ti15 at tiRight
-    show mo45 at moLeft
+    show ody45 at odyLeft
     with hpunch
     "Then the Magnavox Odyssey’s screen flickers to life."
-    mo "User! Hello!"
+    ody "User! Hello!"
     "You are now supremely confused."
     with hpunch
     show 0009 at center:
@@ -156,13 +156,13 @@ label act1Introduction:
     pause(0.35)
     hide 0009
     hide ti15
-    hide mo45
+    hide ody45
     show 0001 at center:
         zoom 1.9
     show macFront at macTop
     show ti15 at tiRight:
         xalign 1.05
-    show mo45 at moLeft
+    show ody45 at odyLeft
     "The screens of each computer become wavy and distorted."
     show my_movie
     "The voices, including the G3, start talking over each other building to a crescendo, then the screen goes black."
@@ -174,6 +174,6 @@ label act1Introduction:
     #When you wake up, the computers are chatting among themselves, the text of their speech displaying on their respective screens.
     #This is when you have the choice of which computer to romance. [Choice: G3, Odyssey, TI99]
 
-    jump a2s1
+    jump a2_meetcomputer_conversations
 
     return

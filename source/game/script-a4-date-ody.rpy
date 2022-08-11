@@ -13,3 +13,7 @@ label a4_end_ody_a:
 label a4_end_ody_b:
 
     return
+
+label a4_end_ody_hal:
+
+    return

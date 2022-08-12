@@ -21,9 +21,29 @@ label a4_date_mac:
     # If you think about it more, (or chose not to),
     # the power blows and your house falls into darkness.
     # The silence is somewhat frightening…
-# Ending Credits
 
+    ## OR ##
+    # mac tells its story/interests
+    # you look at clip art and mac
+    # shows you their generative art
 
+    # mac ponders the identity of the artist
+    # asks, if making an impact on the world
+    # is the way to define a real life?
+    # you say:
+        # of course not. all sorts of digi life is poss
+        # theres plenty of people alive who haven't had an impact!
+    # mac asks, are we just servants to you?
+        # shows my computer likes me when i speak BASIC as evidence
+    # you squirm out of the question, and eventually head home
+
+    # When you are home, in your IoT pad,
+    # do you think more about it?
+        # no, you float off into rumbling massage bliss (vibrates bg/imgs)
+        # yes, you alexa-search "what is the relationship between man and computer?"
+            # returns marshall mcluhan
+            # reads intro to Understanding Media (most of the first paragraph)
+            # you drift off to a deep but troubled sleep
     return
 
 label a4_end_mac_a:

@@ -174,6 +174,6 @@ label a2_meetcompute_intro:
     #When you wake up, the computers are chatting among themselves, the text of their speech displaying on their respective screens.
     #This is when you have the choice of which computer to romance. [Choice: G3, Odyssey, TI99]
 
-    jump a2_meetcomputer_conversations
+    jump a2_meetcompute_conversations
 
     return

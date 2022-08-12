@@ -10,6 +10,9 @@ label a4_date_ody:
     #in the network, as a computer Midi rendition
     #of daisy bell on outro? Or lyrics at least?
 
+    # OR #
+
+    # same as above, but you get zapped into the tv screen like some bad 90s movie
 
     return
 

@@ -146,7 +146,7 @@ label start:
         "No":
             jump quitGame
 
-label start:
+label startGame:
 
     jump a1_textadventure
 

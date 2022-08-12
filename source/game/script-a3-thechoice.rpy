@@ -17,17 +17,13 @@ label a3_thechoice:
         xalign 1.05
     show ody45 at odyLeft
 
-    ### <MISSING TEXT> ###
-
     "Who do you want to get to know better?"
     menu:
-        _MacName:
+        "[_MacName]":
             jump date_mac
-
-        _TiName:
+        "[_TiName]":
             jump date_ti
-
-        _OdyName:
+        "[_OdyName]":
             jump date_ody
 
     return

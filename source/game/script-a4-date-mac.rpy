@@ -18,10 +18,10 @@ label a4_date_mac:
 
     #  Bliss overtakes you as your muscles are vibrated
     #  according to a programmed sequence.
-    # If you think about it more, (or chose not to), 
+    # If you think about it more, (or chose not to),
     # the power blows and your house falls into darkness.
     # The silence is somewhat frightening…
-	# Ending Credits
+# Ending Credits
 
 
     return

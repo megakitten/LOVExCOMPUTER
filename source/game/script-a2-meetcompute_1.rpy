@@ -169,11 +169,13 @@ label a2_meetcompute_intro:
     scene black
     "You have passed out, overwhelmed by the realization that these computers are sentient."
 
+    ### space for the starry night video perhaps? ###
+
     #Not sure if this is supposed to be included or not (below)
     #DREAM SEQUENCE about the computers? [dont have to do this yet. Just an idea]
     #When you wake up, the computers are chatting among themselves, the text of their speech displaying on their respective screens.
     #This is when you have the choice of which computer to romance. [Choice: G3, Odyssey, TI99]
 
-    jump a2_meetcompute_conversations
+    jump a2_meetcompute_conversation
 
     return

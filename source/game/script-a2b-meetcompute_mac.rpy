@@ -5,6 +5,8 @@ label choose_mac:
     play music "audio/DateNight.mp3"
     show macFront
 
+    
+
     ## PERSONALITY ETC ##
     # Mac is creative, innovative, and individualistic
     # but also a bit nervous and emotionally fragile.

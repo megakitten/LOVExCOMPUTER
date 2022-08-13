@@ -1,6 +1,6 @@
 # Act 2, Meet Compute
 
-label a2_meetcompute_conversations:
+label a2_meetcompute_conversation:
     scene mal 00 with Dissolve(1)
 
     play music "audio/MeetCompute_TheChoice.mp3"
@@ -29,13 +29,22 @@ label a2_meetcompute_conversations:
     #zoom out from the mac here, slide it off screen, slide the ti on screen, then maybe pop in the odyssey from the side
     #mess with this later, for now, just getting things in place at least
     scene mal 01 with Dissolve(0.5)
-    show ody45 at odyLeft
+    pause(0.15)
     show ti15 at tiRight
-    "You whip around to see the monitor of the TI99 displaying spoken text."
-    "You are speechless."
+    pause(0.15)
+    show ody45 at odyLeft
+
+    "You whip around to see the monitor of the TI99 displaying the words you just heard."
+
+    ### ADD SCREEN SHAKE
+
+    "~**WHAT**~ !!! ThE __=_) FvvvvvvvvC@#$!"
+
     #odyssey pops in
-    ody "Yooooooo [_InputName]! This is so chill! I knew [_InputPronoun] would be a total chiller!"
+    ody "Yooooooo [_InputName]! This is so chill! I knew you would be a total chill!" #[_InputPronoun]
     with hpunch
+    "Hold it together!"
+    pause(0.15)
     hide ti15
     hide ody45
     show 0009 at center:
@@ -54,7 +63,7 @@ label a2_meetcompute_conversations:
     pause(0.35)
     hide 0009
     "The screen starts to go wavy." with hpunch
-    "You are overwhelmed."
+    "You are oveRwHLPED!"
     with hpunch
     show 0009 at center:
         zoom 1.9
@@ -68,15 +77,17 @@ label a2_meetcompute_conversations:
     pause(0.35)
     hide 0009
     scene black
-    "You pass out." with hpunch
+    "This is what passing out is like..." with hpunch
+    pause(0.15)
     scene mal 00 with Dissolve(2)
     "You regain consciousness."
     "From the floor, you hear the computers wondering if you're alright."
     ti "Oh Gosh! I hope [_InputPronoun] is ok!"
-    ody "I bet [_InputName] is fine, bros. [_InputPronoun] is just excitable. You gotta stay chill!"
+    ody "I bet [_InputName] is fine! [_InputPronoun] is just excitable. I tried to tell them to stay chill!"
     #said shake text here, like hpunch or different?
-    mac "[_InputName]! [_InputName]! {size=-7}Oh I learned about this! You have to raise [_InputPronoun] legs and {i}shake them{/i}!"
-    mac "{size=+7}Help! Someone! Help {size=+5}Help {size=+5}Help!"
+    mac "[_InputName]! [_InputName]! {size=-7}Oh I just learned about this! You have to raise [_InputPronoun] legs and {i}shake them{/i}!"
+    mac "{size=+7}Oh NO! {size=+5}How Do *I* SHAKE {size=+7}{_InputPronoun] LEGS!"
+    pause(0.55)
     "You get up, unsteadily."
     #[ a brief moment of wavy screen effect ] this should be better but im jsut overalaying ai for now
     show 0009 at center:
@@ -99,7 +110,7 @@ label a2_meetcompute_conversations:
     ti "I am a Texas Instruments TI 99/4A."
     ody "I am a Magnavox Odyssey..."
     all "but what you would like to call me?"
-    "Which computer do you approach?"
+    "Which computer terminal do you approach?"
     menu:
         "iMac G3":
             jump name_Mac

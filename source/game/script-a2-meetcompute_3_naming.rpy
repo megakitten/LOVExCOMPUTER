@@ -24,7 +24,7 @@ label name_ody:
     python:
         _OdyName = renpy.input(_("Name the Magnavox Odyssey."))
         _OdyName = _OdyName.strip() or ("Magnavox Odyssey")
-        _OdyHAL = _OdyName == "HAL9000".
+        _OdyHAL = _OdyName == "HAL9000"
     define ody = Character("[_OdyName]",
     who_font="ChicagoFLF.ttf", who_size=40,
     what_font="ChicagoFLF.ttf", what_size=27, what_slow_cps=20, what_slow_abortable=False)

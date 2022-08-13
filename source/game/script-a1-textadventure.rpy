@@ -25,7 +25,7 @@ label a1_textadventure:
     $ renpy.pause(delay=None)
     show textDisplay "I should at least introduce myself first."
     $ renpy.pause(delay=None)
-    show textDisplay "I'm the{color=#eb6434} iMac G3{/color}."
+    show textDisplay "I'm an{color=#eb6434} iMac G3{/color}."
     $ renpy.pause(delay=None)
     show textDisplay "But, uhh... as per my previous question, you are..?"
     $ renpy.pause(delay=None)

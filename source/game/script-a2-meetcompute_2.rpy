@@ -93,10 +93,13 @@ label a2_meetcompute_conversations:
 
     "You are coming to terms that this is {i}not{/i} a game."
     "These computers have somehow become sentient."
-    "You ask, confusedly: “What do I call you?”"
-    all "I don't know..."
-    all "Please tell me what you would like to call me."
-    "Select which computer to name."
+    "You ask, confusedly: “Who...are you?”"
+    all "..."
+    pause (0.35)
+    ti "I am a Texas Instruments TI 99/4A."
+    ody "I am a Magnavox Odyssey..."
+    all "but what you would like to call me?"
+    "Which computer do you approach?"
     menu:
         "iMac G3":
             jump name_Mac

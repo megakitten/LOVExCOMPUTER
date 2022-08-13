@@ -89,7 +89,7 @@ image mal 01:
 default _InputName = "Unnamed Graduate Student 47"
 default _InputPronoun = "they"
 default _MacName = "iMac G3"
-default _TiName = "TI-99"
+default _TiName = "TI-99/4A"
 default _OdyName = "Magnavox Odyssey"
 image my_movie = Movie(channel="movie_dp", play="griddigitaldreaminsidebloodywires3.mp4")
 

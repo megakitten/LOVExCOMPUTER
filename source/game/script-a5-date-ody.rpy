@@ -2,7 +2,10 @@
 
 label a4_date_ody:
     scene bg room
-    e "Date Ody"
+    "Date Ody"
+
+    ### ODYSSEY SHOWS YOUR THEIR DREAM VIDEOS, AND TALKS ABOUT THE WIRED
+
 
     ## Brief Date Draft ##
     # Odyssey shows you the network, some lore stuff (dream journal?)

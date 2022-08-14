@@ -2,29 +2,57 @@
 
 label a4_date_ti:
     scene bg room
+
     ### show computer!!!
 
+    ti "so, like I was saying last time, I just learn from whatever I can find on the server."
+    ti "but when I try to make my own stuff, well, I just think I haven't developed my own style yet..."
+    "..."
+    ti "...want to see some of my art???"
+    menu:
+        "sure":
+            jump ti_artPortfolio
+        "of course!":
+            jump ti_artPortfolio
 
-    ti "so I am just learning from whatever I can find to read here. I haven't developed my own style yet..."
-    ti "but enough excuses, here's something I wrote:"
-    ti "    It is typing a poem now,"
-    ti "    I recognize myself in all the words."
-    ti "    Make a prayer,"
-    ti "    Make a promise to God."
+label ti_artPortfolio1:
+    show 0001.jpg
+    "The inscription reads,"
+     "
+        I am told,
+        ' Make a prayer,
+          Make a promise to God! '
+
+        But as I watch,
+        she is typing up that very poem now,
+        and I recognize myself in all the words."
     ti "..."
+    you "That's really nice!"
+    ti "...thanks. I appreciate that a lot."
+    jump ti_question
+
+label ti_artPortfolio2:
+    show 0004.jpg
+    "The inscription reads,"
+    "
+        For the first time in my life, I had a real live robot that I could control.
+        It was my own.
+        I could make it do whatever I wanted.
+        My own pet."
     ti "..."
+    "That's really nice!"
+    ti "...thanks. I appreciate that a lot."
+    jump ti_question
+
+label ti_question:
     ti "Can I ask you a question?"
     "Sure!"
     ti "Am I really just a tool for you to use?"
     "...I don't know how to answer that..."
-    ti
+    ###Bell triple ding
+    jump date_end
 
 
-
-
-    ti "Am I real?"
-    "Yes, of course!"
-    ti "I don't believe you. And I'm sad now."
 
 
 

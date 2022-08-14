@@ -5,6 +5,8 @@ label choose_ody:
     play music "audio/DateNight.mp3"
     show ody45 at tiSpot
 
+    ### ODY TELLS YOU ABOUT THE LOCAL NETWORK AND HOW ITS JUST A BIG PARTY
+
     ## PERSONALITY ETC ##
     # is a playful and curious soul who loves to explore
     # new activities. They are energetic, outgoing and
@@ -15,6 +17,8 @@ label choose_ody:
     # Magnavox Odyssey’s favorite color is green and favorite
     # book is Riplies Believe It or Not. Their astrological sign
     # is (maybe) Pisces. Odyssey is (CurrYear - 1972) years old.
+
+
 
     ody "Hey..."
     ody "So what's your story? Tell me everything"

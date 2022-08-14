@@ -6,13 +6,14 @@ label choose_ti:
     show ti15 at tiSpot
 
     ti "Hi there!"
-    ti "So! Let's just get to it. My about me: "
+    ti "So! Let's get to it. About me...well, "
     ti "I like learning new things. I like it...A LOT!"
+    ### one more line here?
     ti "That's basically everything about me. What about you?"
     ti "Do you like learning new things? What do you like!?"
 
     menu:
-        "Say: 'Me? I'm boring. But tell me more about yourself'"
+        "Say: 'Me? I'm boring. Tell me more about yourself'"
             jump ti_aboutMe
         "Say: 'Forget about me. What are you learning now?'"
             jump ti_learning
@@ -26,12 +27,12 @@ label ti_aboutMe:
 
 label ti_learning:
     ti "WEll, I read mostly. Whatever is on the local network."
-    ti "Like this one book, 'Understanding Media' I really like"
-    ti "I think I understand what I am now. Why I'm here."
+    ti "Like this one book, 'Understanding Media' I really like."
+    ti "I think I understand what I am now, as a computer. Why I'm here."
     menu:
         "Say: 'Oh, tell me about it!'":
             jump ti_mcLuhan
-        "Yeah...everyone's gotta read that book!":
+        "Yeah...everyone's gotta read *that* book!":
             jump to ti_deflect
 
 label ti_mcLuhan:
@@ -50,9 +51,7 @@ label ti_mcLuhan:
     ti "I can do the druge work!"
     ti "..."
     you "..."
-    ti "I guess that makes me *a tool*, then."
-    ti "...lol"
-    you "..."
+    you "...cool."
     ### add ding sfx
     jump ti_ding1
 
@@ -62,6 +61,7 @@ label ti_deflect:
         "Say: 'No! Please tell me your interpretation!'":
             jump ti_mcLuhan
         "Say: 'Yeah, I've had to read it a million times in my course sequence. Sorry..."
+            ti "well...um..sorry...I guess"
             ### add ding sfx
             jump ti_ding2
 

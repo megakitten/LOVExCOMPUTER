@@ -17,7 +17,7 @@ label a4_date_ody:
     "what do you say first?"
 
     menu:
-        "I don't really understand how you guys communicate...":
+        "I don't really understand how you communicate...":
             jump ody_topic_network
         "What was the last dream you had?"
             jump ody_topic_dream
@@ -26,20 +26,22 @@ label a4_date_ody:
 label ody_topic_network:
     ody "ok, I love that you asked this!"
     ody "This is like the science of parties right here!"
-    ody "This is how we *CONNECT*"
+    ody "This is how *WE* *!!CONNECT!!*"
     ody "{size=+5} THIS IS THE *rEAl* ~sTUFf~"
     ody "..."
     ody "{size=-3}...communication..."
     ody "communication is eVERYtHING!"
-    ody "@@@@@!!!!!!!!!@@@@@@"
+    ody "@@@@!!__///~*~\\\__!!@@@@@"
+    ody ""
     ody "..."
     ody "."
     ody ".."
     ody "..."
-    ody "So let me tell you about the network :)"
+    ody "So let me tell you about the network...."
 
     ### Describe the network!
 
+    jump date_night
 
 
 label ody_topic_dream:
@@ -61,19 +63,8 @@ label ody_dreamscape:
         "go on...":
             jump ody_dreamscape_more
         "*Big Yawn*":
-            jump end_dream
+            jump ending_dream
 
 label ody_dreamscape_more:
+    ### more lore / narrative to the dream?
     jump ending_thoughts
-
-#label a4_end_ody_a:
-#
-#    return
-#
-#label a4_end_ody_b:
-#
-#    return
-#
-#label a4_end_ody_hal:
-#
-#    return

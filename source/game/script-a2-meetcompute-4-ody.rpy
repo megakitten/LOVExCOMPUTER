@@ -17,9 +17,12 @@ label choose_ody:
     # is (maybe) Pisces. Odyssey is (CurrYear - 1972) years old.
 
     ody "Hey..."
-    ody "So what's your story? Tell me anything."
+    ody "So what's your story? Tell me everything"
     ody "I've been told that I'm a good listener!"
     ody "I'm actually training to be a therapist."
+    ody "..."
+    ody "Let it all out!"
+    ody "...uh...please"
     python:
         #input is thrown away
         _ = renpy.input(_("Tell [_OdyName] your deepest darkest worries."))
@@ -32,10 +35,12 @@ label choose_ody:
     ### Flash Screen with AI ###
 
     ody "I felt that way. But then I went and got everyone together."
-    ody "A big ol {size=+7}LAN party!.{size=-7} IT wuz {size=+2}uh{size=+7} F*(&ing Cl4ssic!"
+    ody "A. BIG. ASS. {size=+7}LAN. PARTY!."
+    ody "{size=-7} IT wuz {size=+2}uh{size=+7} F*(&ing Cl4ssic!"
 
     menu:
-        "thats cool... [make excuse and leave]":
+        "*Bell dings*":
+            ody "Oh. I guess that's our time! It was really nice meeting you!"
             jump ody_leave
         "YOURE A LEGEND!":
             jump ody_next
@@ -44,10 +49,10 @@ label choose_ody:
 
 label ody_leave:
     menu:
-        "hope you have another party soon! seems like a jam!":
-            jump ody_next
         "I'll be *right* back...":
             jump a2_reset_choice
+        "hope you have another party soon! seems like a jam!":
+            jump ody_next
 
 label ody_moreInfo:
     ### add content here if time
@@ -63,5 +68,6 @@ label ody_moreInfo:
     jump ody_next
 
 label ody_next:
-
+    "*Bell dings*":
+    ody "Oh. I guess that's our time! It was really nice meeting you!"
     jump power_outage

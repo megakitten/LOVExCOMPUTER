@@ -11,7 +11,7 @@ label a2_meetcompute_intro:
     "You park on the street outside of the MIL."
     "You hope campus PD doesn't write you a ticket..."
     "..." # key in door?
-    "The familiar basement smells great to you."
+    "The familiar basement smell greats you."
 
     show macFront
     "You are sitting in front of the iMac G3 with your laptop and an external CD drive, digitizing “If Monks Had Macs.”"

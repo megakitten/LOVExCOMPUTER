@@ -4,7 +4,8 @@ label a2_meetcompute_conversation:
     scene mal 00 with Dissolve(1)
     play music "audio/MeetCompute_TheChoice.mp3"
     "..." # key in door?
-    "The familiar basement smells great to you."
+    "The familiar basement smell great you."
+    "You hope campus parking enforcement doesn't write you a ticket..."
     "Another late night in the MIL."
     "This time you are digitizing Leisure Suit Larry for DOS (or Windows95?)."
     with hpunch

@@ -28,10 +28,13 @@ label choose_mac:
     # She also became involved in several charities
     # that help improve the world for Aquarii.
 
-    mac "Hi again!"
+    mac "Hiii!"
 
 
-    ### SAY MORE THINGS HERE"
+    ### flash computer blush image? or pinkish diamond ai image ###
+
+    "uh..."
+    "..."
 
 
     python:

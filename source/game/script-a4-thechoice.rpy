@@ -1,9 +1,9 @@
 # Act 3, The Choice
 
 label date_night:
-    e "..." # key in door?
-    e "You unlock the door for what feels like the millonth time."
-    e "The familiar basement smell greats you."
+    "..." # key in door?
+    "You unlock the door for what feels like the millonth time."
+    "You great the familiar basement smell."
     scene bg room
 
     show macFront at macTop
@@ -22,9 +22,7 @@ label date_night:
 
 label a3_thechoice:
 
-
     # storm sfx, use Andes recordings
-
 
     "You hope campus PD doesn't write you a ticket..."
     "..." ### sfx of key in door?

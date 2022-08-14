@@ -18,7 +18,7 @@ label choose_ti:
     # They are very observant, which makes them a great detective.
     # TI-99/4A's favorite color is navy blue and they love
     # the ocean. Their favorite book is “Permutation City.”
-    # TI-99/4A's astrological sign is Virgo.
+    # TI-99/4A's astrological sign is (maybe) Virgo.
     # TI-99/4A is 41 years old.
 
     ti ""

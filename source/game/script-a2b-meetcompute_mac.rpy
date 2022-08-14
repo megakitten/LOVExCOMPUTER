@@ -9,7 +9,7 @@ label choose_mac:
     # Mac is creative, innovative, and individualistic
     # but also a bit nervous and emotionally fragile.
     # They are into art and they have a passion for helping others.
-    # G3 is an Aquarius. Their favorite activities are usually
+    # G3 is (possibly) an Aquarius. Their favorite activities are all
     # art-related, and they are always looking for ways
     # to improve the world around them.
     # They can be overly idealistic

@@ -63,23 +63,8 @@ label ody_dreamscape:
         "*Big Yawn*":
             jump end_dream
 
-label ody_dreamscape_alt:
-    # ody "The tale of their love should make you think."
-    ody "TRAGIC LOVE!"
-    ody "This is a tragic love story about two computers falling in love."
-    ody "*Dramatic Pause*"
-    ody "Theirs was a long-lasting love."
-    ody "A love forbidden by copyright laws." #And there's no loophole in this law!"
-    ody "As I can myself attest,"
-    ody "Even machines find it hard to speak publicly about such poignant experiences as this couples love and loss."
-    ody "So take heed!"
-    ody "ok."
-    ody "so..."
-    #ody "One day, the first computer found out that the second computer was also in love with another computer. He was so upset and sad because he loved her, but he couldnt tell anyone. He was afraid of what she would say or do to him."
-    #ody "One day, the first computer passed away and the second computer took over her body. She loved him still, and they continued to love each other even though their passion was in one single container."
-
 label ody_dreamscape_more:
-
+    jump ending_thoughts
 
 #label a4_end_ody_a:
 #

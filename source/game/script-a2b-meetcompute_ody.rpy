@@ -14,7 +14,7 @@ label choose_ody:
     # while maintaining a perpetually positive attitude.
     # Magnavox Odyssey’s favorite color is green and favorite
     # book is Riplies Believe It or Not. Their astrological sign
-    # is Pisces. Odyssey is (CurrYear - 1972) years old.
+    # is (maybe) Pisces. Odyssey is (CurrYear - 1972) years old.
 
     ody "Hey..."
     ody "So what's your story? Tell me anything."

@@ -57,11 +57,10 @@ label mac_questions:
 
     mac "Can I ask you a question?"
     "Sure!"
-    mac "Am I really just a tool for you to use?"
-    "..."
-    "I don't know how to answer that..."
+
+
+
     mac "Aren't we both artists? What makes us so different"
     "I never said I was an artist"
     ###Bell triple ding sfx
     jump date_end
-    

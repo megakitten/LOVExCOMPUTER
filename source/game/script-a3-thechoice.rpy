@@ -6,8 +6,6 @@ label date_night:
     e "The familiar basement smell greats you."
     scene bg room
 
-    #steal code from the other choice moment in a2
-
     show macFront at macTop
     show ti15 at tiRight:
         xalign 1.05
@@ -23,7 +21,11 @@ label date_night:
             jump date_ody
 
 label a3_thechoice:
+
+
     # storm sfx, use Andes recordings
+
+
     e "It's raining. Hard."
     e "You park on the street outside of the MIL."
     e "You hope campus PD doesn't write you a ticket..."
@@ -32,14 +34,13 @@ label a3_thechoice:
     e "The familiar basement smell greats you."
     scene bg room
 
-    #steal code from the other choice moment in a2
-
     show macFront at macTop
     show ti15 at tiRight:
         xalign 1.05
     show ody45 at odyLeft
 
     "Who do you want to get to know better?"
+
     menu:
         "[_MacName]":
             jump date_mac

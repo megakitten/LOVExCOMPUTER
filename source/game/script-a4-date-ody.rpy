@@ -19,7 +19,7 @@ label a4_date_ody:
     menu:
         "I don't really understand how you communicate...":
             jump ody_topic_network
-        "What was the last dream you had?"
+        "What was the last dream you had?":
             jump ody_topic_dream
     return
 
@@ -41,12 +41,18 @@ label ody_topic_network:
 
     ### Describe the network!
 
-    jump date_night
 
+
+    jump date_night
 
 label ody_topic_dream:
     ody "ok, so..."
+
+
     ### a couple more lines here to set up the transition
+
+
+
     pause(2.5)
     jump ody_dreamscape
 
@@ -57,7 +63,10 @@ label ody_dreamscape:
     ody "This is called the First Love Rule and whichever computer breaks it gets unplugged immediately."
     ody "One day Mary decided to break this rule by falling in love with Tom but instead of being unplugged, she started having strange dreams about flying through space on a unicorn to distant worlds beyond her imagination..."
 
+
+
     ### FADE INTO AND OUT OF AI MOV ###
+
 
     menu:
         "go on...":
@@ -66,5 +75,9 @@ label ody_dreamscape:
             jump ending_dream
 
 label ody_dreamscape_more:
+
+
     ### more lore / narrative to the dream?
+
+
     jump ending_thoughts

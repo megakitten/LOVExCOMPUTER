@@ -46,15 +46,3 @@ label a4_date_ti:
     ## POWER SURGE ##
 
     return
-
-label a4_end_ti_a:
-
-    return
-
-label a4_end_ti_b:
-
-    return
-
-label a4_end_ti_hal:
-
-    return

@@ -45,15 +45,3 @@ label a4_date_mac:
             # reads intro to Understanding Media (most of the first paragraph)
             # you drift off to a deep but troubled sleep
     return
-
-label a4_end_mac_a:
-
-    return
-
-label a4_end_mac_b:
-
-    return
-
-label a4_end_mac_hal:
-
-    return

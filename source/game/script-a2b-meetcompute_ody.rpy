@@ -46,7 +46,7 @@ label ody_leave:
     menu:
         "hope you have another party soon! seems like a jam!":
             jump ody_next
-        "I'll be *right* back..."
+        "I'll be *right* back...":
             jump a2_reset_choice
 
 label ody_moreInfo:

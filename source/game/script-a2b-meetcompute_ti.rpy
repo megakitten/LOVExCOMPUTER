@@ -47,7 +47,7 @@ label choose_ti:
     menu:
         "Sure":
             jump ti_next
-        "I'll be *right* back..."
+        "I'll be *right* back...":
             jump a2_reset_choice
 
 label ti_next:

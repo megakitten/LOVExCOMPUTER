@@ -2,10 +2,6 @@
 errors listed below, and try again.
 
 
-File "game/script-a2b-meetcompute_mac.rpy", line 56: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "I'll be *right* back..."
-                             ^
-
 File "game/script-a2b-meetcompute_ody.rpy", line 49: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
     "I'll be *right* back..."
                              ^
@@ -14,9 +10,5 @@ File "game/script-a2b-meetcompute_ti.rpy", line 50: Line is followed by a block,
     "I'll be *right* back..."
                              ^
 
-File "game/script-a4-date-ody.rpy", line 22: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "What was the last dream you had?"
-                                      ^
-
 Ren'Py Version: Ren'Py 8.0.1.22070801
-Sat Aug 13 20:43:27 2022
+Sat Aug 13 20:46:01 2022

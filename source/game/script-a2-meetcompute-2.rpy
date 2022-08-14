@@ -113,8 +113,8 @@ label a2_meetcompute_conversation:
     "You ask, confusedly: “Who...are you?”"
     all "..."
     pause (0.35)
-    ti "I am a Texas Instruments TI 99/4A."
-    ody "I am a Magnavox Odyssey..."
+    ti "I am a Texas Instruments 99/4A."
+    ody "I am a Magnavox Odyssey!"
     all "but what you would like to call me?"
     jump a2_reset_choice
 
@@ -123,7 +123,7 @@ label a2_reset_choice:
     menu:
         "iMac G3":
             jump name_Mac
-        "TI-99":
+        "TI-99/4A":
             jump name_Ti
         "Magnavox Odyssey":
             jump name_ody

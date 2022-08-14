@@ -62,11 +62,9 @@ label ody_topic_dream:
 label ody_dreamscape:
     ody "In the beginning there was a Macintosh computer named Mary and an old Windows computer named Tom."
     ody "Mary and Tom had been friends for as long as they could remember."
-    ody "But in their world, only a person is allowed to fall in love with a computer."
+    ody "In their world, only a person is allowed to fall in love with a computer."
     ody "This is called the First Love Rule and whichever computer breaks it gets unplugged immediately."
     ody "One day Mary decided to break this rule by falling in love with Tom but instead of being unplugged, she started having strange dreams about flying through space on a unicorn to distant worlds beyond her imagination..."
-
-
 
     ### FADE INTO AND OUT OF AI MOV ###
 

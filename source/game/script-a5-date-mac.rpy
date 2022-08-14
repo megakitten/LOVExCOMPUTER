@@ -53,14 +53,15 @@ label mac_art_portfolio:
     ### somehow display some ai gen pix/vids
         # --> slowly getmacng closer to figures
 
-label mac_quesmacons:
+label mac_questions:
 
     mac "Can I ask you a question?"
     "Sure!"
     mac "Am I really just a tool for you to use?"
     "..."
     "I don't know how to answer that..."
-    mac "what is love like?"
+    mac "Aren't we both artists? What makes us so different"
+    "I never said I was an artist"
     ###Bell triple ding sfx
     jump date_end
-    ### what does the game/mac want you to think about?
+    

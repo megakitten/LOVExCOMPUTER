@@ -20,11 +20,13 @@ label credits:
 
 label outro:
 
+    ### All the voices talk-sing "Daisy Bell"
 
     ### play one of the movies or something
 
+    ### include their bios at the end (for the easter eggs)
 
     return
 
-### TI bring up My Computer Likes Me
+
 ### Mac brings up haraway. We are they.

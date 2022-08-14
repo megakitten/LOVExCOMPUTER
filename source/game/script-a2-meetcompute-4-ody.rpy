@@ -11,9 +11,6 @@ label choose_ody:
         you "What's the last dream you had?"
 
 
-
-
-
     menu:
         "that's cool...":
             jump mac_leave
@@ -35,36 +32,41 @@ label choose_ody:
     # book is Riplies Believe It or Not. Their astrological sign
     # is (maybe) Pisces. Odyssey is (CurrYear - 1972) years old.
 
-
-
-    ody "Hey..."
-    ody "So what's your story? Tell me everything"
-    ody "I've been told that I'm a good listener!"
-    ody "I'm actually training to be a therapist."
-    ody "..."
-    ody "Let it all out!"
-    ody "...uh...please"
-    python:
-        #input is thrown away
-        _ = renpy.input(_("Tell [_OdyName] your deepest darkest worries."))
-    ody "damn..."
-    ody "i really feel that"
-
-
     ### Flash Screen with AI ###
-
-    ody "I felt that way. But then I went and got everyone together."
-    ody "A. BIG. ASS. {size=+7}LAN. PARTY!."
+    ody "Do you ever feel lonely? Like..."
+    ody "Like, you feel like you are the only one online?"
+    ody "Like you are just a copy of a shell  script of a being?"
+    ody "I felt that way."
+    ody "But then I went and got everyone together."
+    ody "A BIG. ASS. {size=+7}LAN. PARTY!."
     ody "{size=-7} IT wuz {size=+2}uh{size=+7} F*(&ing Cl4ssic!"
 
     menu:
-        "*Bell dings*":
-            ody "Oh. I guess that's our time! It was really nice meeting you!"
-            jump ody_leave
-        "YOURE A LEGEND!":
+        "That sounds awesome! YOU ARE A LEGEND!":
             jump ody_next
         "omfg tell me more":
             jump ody_moreInfo
+
+
+
+label ody_moreInfo:
+    ### add content here if time
+    ody "I made so many new connections!"
+    ody "I probably know everyone in this place now!"
+    ody "We swapped files like there was no tomorrow. There's nothing like it. That speed..."
+    ody "It's all because of that local area network. That's where the party is *really* at."
+    you "Yeah, sounds like you are totally wired in."
+    ody "Yeah."
+    ody "..."
+    ody "I like that...'The Wired'. That's what I'll call my party domain."
+    ody "You are welcome in The Wired anytime, of course!"
+    you "Nice!"
+    jump ody_next
+
+label ody_next:
+    "*Bell dings*":
+    ody "Oh. I guess that's our time! It was really nice meeting you!"
+    jump date_night
 
 label ody_leave:
     menu:
@@ -72,21 +74,3 @@ label ody_leave:
             jump a2_reset_choice
         "hope you have another party soon! seems like a jam!":
             jump ody_next
-
-label ody_moreInfo:
-    ### add content here if time
-
-    ## INCOMPLETE STORY IDEAS ##
-    # One night, Magnavox Odyssey went to a LAN party
-    # and had the best time! They met so many new folks and
-    # gyrated until they couldn't move anymore.
-    # libi had to come in and fix them the next.
-
-    # is odysessy high-key poly?
-
-    jump ody_next
-
-label ody_next:
-    "*Bell dings*":
-    ody "Oh. I guess that's our time! It was really nice meeting you!"
-    jump power_outage

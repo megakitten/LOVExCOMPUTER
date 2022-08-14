@@ -53,3 +53,19 @@ label ti_storyReaction:
     you "That was really nice!"
     ti "...thanks. I appreciate that a lot."
     jump ti_question
+
+label ti_question:
+    ti "Hey, can I ask you a question?"
+    ti "Am I just a tool to you?"
+    you "Why would you think that!? I think you're great and way more than a calculator!"
+    ti "No, I mean do you think all computers are just tools, or do you see me differently because I can communicate?"
+    you "I think everyone's starting to realize that computers are more than just tools..."
+    ti "But people write such awful stuff! I found this instruction manual for how to use computers, and I just cant believe someone would write this!"
+
+    ### Show a couple pages from MY COMPUTER LIKES ME WHEN
+
+    you "This manual is 30 years old. All that thinking is in the past!"
+    ti "..."
+    ti "I don't know about that..."
+    ### sfx bell triple ding!
+    jump date_end

@@ -175,3 +175,32 @@ label mac_dialogue:
         # returns marshall mcluhan
         # reads intro to Understanding Media (most of the first paragraph)
         # you drift off to a deep but troubled sleep
+
+
+#######################
+## Weird Ody Dialogue##
+    ody "Hey..."
+    ody "So what's your story? Tell me everything"
+    ody "I've been told that I'm a good listener!"
+    ody "I'm actually training to be a therapist."
+    ody "..."
+    ody "Let it all out!"
+    ody "...uh...please"
+    python:
+        #input is thrown away
+        _ = renpy.input(_("Tell [_OdyName] your deepest darkest worries."))
+    ody "damn..."
+    ody "i really feel that"
+
+########################
+### Mac Story for intro#
+
+    ##  POTENTIAL STORY ##
+    # One night, iMac G3 was browsing an art museum catalog
+    # and saw a painting called "Aquarius."
+    # They felt a strong connection to it and secretly hoped that
+    # others saw them like the figure in the painting.
+    # G3 decided they wanted to become an artist too,
+    # and started using MAL’s software library to create digital art.
+    # She also became involved in several charities
+    # that help improve the world for Aquarii.

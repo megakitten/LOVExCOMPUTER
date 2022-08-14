@@ -26,12 +26,10 @@ label a3_thechoice:
     # storm sfx, use Andes recordings
 
 
-    e "It's raining. Hard."
-    e "You park on the street outside of the MIL."
-    e "You hope campus PD doesn't write you a ticket..."
-    e "..." ### sfx of key in door?
-    e "You unlock the door for what feels like the millonth time."
-    e "The familiar basement smell greats you."
+    "You hope campus PD doesn't write you a ticket..."
+    "..." ### sfx of key in door?
+    "You unlock the door for what feels like the millonth time."
+    "You great the familiar basement smell."
     scene bg room
 
     show macFront at macTop

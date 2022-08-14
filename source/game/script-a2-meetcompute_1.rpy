@@ -6,11 +6,12 @@ label a2_meetcompute_intro:
     scene mal 00 with Dissolve(1)
 
     ### storm sfx, use Andes recordings
-    e "It's raining. Hard."
-    e "You park on the street outside of the MIL."
-    e "You hope campus PD doesn't write you a ticket..."
-    e "..." # key in door?
-    e "The familiar basement smell greats you."
+
+    "It's raining. Hard."
+    "You park on the street outside of the MIL."
+    "You hope campus PD doesn't write you a ticket..."
+    "..." # key in door?
+    "The familiar basement smells great to you."
 
     show macFront
     "You are sitting in front of the iMac G3 with your laptop and an external CD drive, digitizing “If Monks Had Macs.”"

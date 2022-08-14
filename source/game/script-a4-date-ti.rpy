@@ -2,14 +2,13 @@
 
 label a4_date_ti:
     scene bg room
-    e "Date TI"
 
     #Make this question come from you
     #you can pick whether:
         #    1. to ask about MIL
         # or 2. about language (BASIC)
-    mac "Hey..."
-    mac "Why is it called the Media Intervention Lab?"
+    ti "Hey..."
+    ti "Why is it called the Media Intervention Lab?"
     menu:
         "Because we intervene in media technologies.":
             you "Because we intervene in media technologies."

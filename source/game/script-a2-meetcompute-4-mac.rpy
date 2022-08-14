@@ -29,7 +29,11 @@ label choose_mac:
     # that help improve the world for Aquarii.
 
     mac "Hi again!"
+
+
     ### SAY MORE THINGS HERE"
+
+
     python:
         #input is thrown away
         _ = renpy.input(_("Tell [_MacName] your last good dream."))
@@ -38,7 +42,11 @@ label choose_mac:
     mac "I wanted to ask you..."
     mac "like...late at night, do you ever get that feeling?"
     mac "That feeling that you just *HAVE* to *MAKE* something?"
+
+
     ### Flash Screen with AI ###
+
+
     mac "I feel that way a lot..."
 
     menu:
@@ -57,12 +65,20 @@ label mac_leave:
             jump a2_reset_choice
 
 label mac_moreInfo:
+
+
     ### add content here if time
+
+
     you "how often do you feel that way?"
     mac "oh! well like...all the time, really!"
     jump mac_next
 
 
 label mac_next:
-    #CLOSE OUT THIS INTERACTION QUICKLY
+    ###
+
+    CLOSE OUT THIS INTERACTION QUICKLY
+
+
     jump power_outage

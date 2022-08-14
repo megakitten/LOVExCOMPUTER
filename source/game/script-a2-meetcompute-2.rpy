@@ -26,8 +26,13 @@ label a2_meetcompute_conversation:
     with hpunch
     "But then, from behind you..."
     ti "Hi. Um. It’s Its. Its really nice to meet you."
+
+    ### TRANSITION
+
     #zoom out from the mac here, slide it off screen, slide the ti on screen, then maybe pop in the odyssey from the side
     #mess with this later, for now, just getting things in place at least
+
+
     scene mal 01 with Dissolve(0.5)
     pause(0.15)
     show ti15 at tiRight
@@ -41,7 +46,7 @@ label a2_meetcompute_conversation:
     "~**WHAT**~ !!! ThE __=_) FvvvvvvvvC@#$!"
 
     #odyssey pops in
-    ody "Yooooooo [_InputName]! This is so chill! I knew you would be a total chill!" #[_InputPronoun]
+    ody "Yooooooo [_InputName]!!! This is so chillllll!! I knew [_InputName] would be totally chill!" #[_InputPronoun]
     with hpunch
     "Hold it together!"
     pause(0.15)

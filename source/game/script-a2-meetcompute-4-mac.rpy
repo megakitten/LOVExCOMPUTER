@@ -12,11 +12,12 @@ label choose_mac:
     ### flash computer blush image? or pinkish diamond ai image ###
     menu:
         "uh...":
-
+            jump mac_invitation
         "...":
+            jump mac_invitation
 
 label mac_invitation:
-    mac: "Do you want to look at some art?"
+    mac "Do you want to look at some art?"
     menu:
         "Yeah of course!":
             jump mac_clipArtGallery

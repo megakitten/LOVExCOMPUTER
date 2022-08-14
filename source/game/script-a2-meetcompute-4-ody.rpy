@@ -5,19 +5,17 @@ label choose_ody:
     play music "audio/DateNight.mp3"
     show ody45 at tiSpot
 
-    menu:
-        you "So tell me about yourself"
-
-        you "What's the last dream you had?"
-
-
-    menu:
-        "that's cool...":
-            jump mac_leave
-        "Wow, that's fascinating":
-            jump mac_next
-        "omfg me too! tell me more!":
-            jump mac_moreInfo
+#    menu:
+#        you "So tell me about yourself"
+#
+#        you "What's the last dream you had?"
+#
+#
+#    menu:
+#        "Wow, that's fascinating":
+#            jump mac_next
+#        "omfg me too! tell me more!":
+#            jump mac_moreInfo
 
     ### ODY TELLS YOU ABOUT THE LOCAL NETWORK AND HOW ITS JUST A BIG PARTY
 
@@ -64,7 +62,7 @@ label ody_moreInfo:
     jump ody_next
 
 label ody_next:
-    "*Bell dings*":
+    "*Bell dings*"
     ody "Oh. I guess that's our time! It was really nice meeting you!"
     jump date_night
 

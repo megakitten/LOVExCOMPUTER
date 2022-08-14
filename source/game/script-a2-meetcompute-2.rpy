@@ -92,7 +92,7 @@ label a2_meetcompute_conversation:
     ody "I bet [_InputName] is fine! [_InputPronoun] is just excitable. I tried to tell them to stay chill!"
     #said shake text here, like hpunch or different?
     mac "[_InputName]! [_InputName]! {size=-7}Oh I just learned about this! You have to raise [_InputPronoun] legs and {i}shake them{/i}!"
-    mac "{size=+7}Oh NO! {size=+5}How Do *I* SHAKE {size=+7}{_InputPronoun] LEGS!"
+    mac "{size=+7}Oh NO! {size=+5}How Do *I* SHAKE {size=+7}[_InputPronoun] LEGS!"
     pause(0.55)
     "You get up, unsteadily."
     #[ a brief moment of wavy screen effect ] this should be better but im jsut overalaying ai for now

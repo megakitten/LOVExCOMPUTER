@@ -1,6 +1,6 @@
-# Act 4, Mac Date
+# Act 5, Mac Date
 
-label a4_date_mac:
+label adate_mac:
     scene bg room
     show macFront
     pause(1.0)
@@ -21,23 +21,20 @@ label a4_date_mac:
             jump mac_artPortfolio2
 
 label mac_artPortfolio1:
-    show 0001.jpg
+    ### show 0001.jpg
     "The accompanying text reads,"
-     "
-        I was told,
-        ' Make a prayer,
-          Make a promise to God! '
+    "I was told,
+    ' Make a prayer,
+    Make a promise to God! '
 
-        But as I watch,
-        She is typing up that very poem now,
-        and I recognize myself in all the words."
+    But as I watch,
+    She is typing up that very poem now,
+    and I recognize myself in all the words."
     jump mac_artReaction
 
 label mac_artPortfolio2:
-
     ### replace image
-    show 0004.jpg
-
+    ### show 0004.jpg
     "The accompanying text reads,"
     "It was my own. I could make it do whatever I wanted. My own pet."
     jump mac_artReaction

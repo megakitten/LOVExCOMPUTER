@@ -13,9 +13,9 @@ label choose_ti:
     ti "Do you like learning new things? What do you like!?"
 
     menu:
-        "Say: 'Me? I'm boring. Tell me more about yourself'"
+        "Say: 'Me? I'm boring. Tell me more about yourself'":
             jump ti_aboutMe
-        "Say: 'Forget about me. What are you learning now?'"
+        "Say: 'Forget about me. What are you learning now?'":
             jump ti_learning
 
 label ti_aboutMe:
@@ -33,7 +33,7 @@ label ti_learning:
         "Say: 'Oh, tell me about it!'":
             jump ti_mcLuhan
         "Yeah...everyone's gotta read *that* book!":
-            jump to ti_deflect
+            jump ti_deflect
 
 label ti_mcLuhan:
     ti "Ok so, I'm not that good at summarizing so I'll just tell you my favorite quotes:"
@@ -60,7 +60,7 @@ label ti_deflect:
     menu:
         "Say: 'No! Please tell me your interpretation!'":
             jump ti_mcLuhan
-        "Say: 'Yeah, I've had to read it a million times in my course sequence. Sorry..."
+        "Say: 'Yeah, I've had to read it a million times in my course sequence. Sorry...'":
             ti "well...um..sorry...I guess"
             ### add ding sfx
             jump ti_ding2

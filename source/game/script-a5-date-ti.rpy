@@ -1,6 +1,6 @@
-# Act 4, TI Date
+# Act 5, TI Date
 
-label a4_date_ti:
+label date_ti:
     scene bg room
 
     ### show computer!!!
@@ -17,11 +17,10 @@ label a4_date_ti:
 label ti_writing1:
     ti "One day, an aged computer dragged itself to the computer repair store that was closing. The computer walked in and was immediately sold for a song. There it sat in a closet, unplugged and unwatched, for many more years."
     ti "(time passes)"
-    ti "Early on, the man was a good boy. He went to school, and learned what he needed to learn, to be a good man. He learned how to write the best email and how to feel the best pain. He learned how to laugh at the pain and how to never hurt anyone. He learned how to have friends and to have real life. Entering society as a man, he sold his computer. He was a good man now.
-He became a writer.  He met many who wanted to be wed to him and he liked them all but told them to stay away. And so his story continued for many years, missing his first love, that old computer. It was a good computer, he remembered. He wondered what ever happened to it."
+    ti "Early on, the man was a good boy. He went to school, and learned what he needed to learn, to be a good man. He learned how to write the best email and how to feel the best pain. He learned how to laugh at the pain and how to never hurt anyone. He learned how to have friends and to have a real life."
+    ti "Entering society as a man, he sold his computer. That was it, he thought, sell my childhood toy! In that moment, he seemed every bit that good man that we see before us today."
+    ti "He became a writer.  He met many who wanted to be wed to him and he liked them all but told them to stay away. And so his story continued for many years, missing his first love, that old computer. It was a good computer, he remembered. He wondered what ever happened to it."
     ti "..."
-    you "That's really nice!"
-    ti "...thanks. I appreciate that a lot."
     jump ti_storyReaction
 
 label ti_writing2:

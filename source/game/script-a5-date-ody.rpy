@@ -1,6 +1,6 @@
-# Act 4, Odyssey Date
+# Act 5, Odyssey Date
 
-label a4_date_ody:
+label date_ody:
     scene bg room
     "Date Ody"
 

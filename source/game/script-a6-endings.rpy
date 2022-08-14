@@ -10,9 +10,21 @@ label date_end:
 
 label credits:
     "LOVE
-COMPUTER
-…BY PVH
-…Programming by Te’ah and Paulus
-…Music by Andy DiLallo
-…Script by Paulus and Te’ah
-…Directed by Paulus"
+    COMPUTER
+    …BY PVH
+    …Programming by Te’ah and Paulus
+    …Music by Andy DiLallo
+    …Script by Paulus and Te’ah
+    …Directed by Paulus"
+    jump outro
+
+label outro:
+
+
+    ### play one of the movies or something
+
+
+    return
+
+### TI bring up My Computer Likes Me
+### Mac brings up haraway. We are they.

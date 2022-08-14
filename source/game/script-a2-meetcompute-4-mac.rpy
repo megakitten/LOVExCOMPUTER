@@ -34,7 +34,7 @@ label choose_mac:
 
     "uh..."
     "..."
-    
+
     mac: "Do you want to look at some art?"
     menu:
         "Yeah of course!":
@@ -47,22 +47,7 @@ label mac_clipArtGallery:
     ### somehow show user a bunch of clip art ###
 
 
-    menu:
-        you "So tell me about yourself"
 
-        you "What's the last dream you had?"
-
-
-
-
-
-    menu:
-        "that's cool...":
-            jump mac_leave
-        "Wow, that's fascinating":
-            jump mac_next
-        "omfg me too! tell me more!":
-            jump mac_moreInfo
 
 label mac_leave:
     menu:
@@ -85,7 +70,4 @@ label mac_moreInfo:
 label mac_next:
     ###
 
-    CLOSE OUT THIS INTERACTION QUICKLY
-
-
-    jump power_outage
+    ### bring up

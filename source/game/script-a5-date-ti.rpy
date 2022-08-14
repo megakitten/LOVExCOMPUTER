@@ -6,81 +6,50 @@ label a4_date_ti:
     ### show computer!!!
 
     ti "so, like I was saying last time, I just learn from whatever I can find on the server."
-    ti "but when I try to make my own stuff, well, I just think I haven't developed my own style yet..."
-    "..."
-    ti "...want to see some of my art???"
+    ti "but when I try to write my own stuff...well, I just think I haven't developed my own style yet..."
+    ti "...would you be up to read some of it??"
     menu:
         "sure":
-            jump ti_artPortfolio
+            jump ti_writing1
         "of course!":
-            jump ti_artPortfolio
+            jump ti_writing2
 
-label ti_artPortfolio1:
-    show 0001.jpg
-    "The inscription reads,"
-     "
-        I am told,
-        ' Make a prayer,
-          Make a promise to God! '
-
-        But as I watch,
-        she is typing up that very poem now,
-        and I recognize myself in all the words."
+label ti_writing1:
+    ti "One day, an aged computer dragged itself to the computer repair store that was closing. The computer walked in and was immediately sold for a song. There it sat in a closet, unplugged and unwatched, for many more years."
+    ti "(time passes)"
+    ti "Early on, the man was a good boy. He went to school, and learned what he needed to learn, to be a good man. He learned how to write the best email and how to feel the best pain. He learned how to laugh at the pain and how to never hurt anyone. He learned how to have friends and to have real life. Entering society as a man, he sold his computer. He was a good man now.
+He became a writer.  He met many who wanted to be wed to him and he liked them all but told them to stay away. And so his story continued for many years, missing his first love, that old computer. It was a good computer, he remembered. He wondered what ever happened to it."
     ti "..."
     you "That's really nice!"
     ti "...thanks. I appreciate that a lot."
-    jump ti_question
+    jump ti_storyReaction
 
-label ti_artPortfolio2:
-    show 0004.jpg
-    "The inscription reads,"
-    "
-        For the first time in my life, I had a real live robot that I could control.
-        It was my own.
-        I could make it do whatever I wanted.
-        My own pet."
+label ti_writing2:
+    "I had no idea what I was getting into."
+    "The first time I tried to make it dance, it didn’t dance."
+    "The first time I tried to make it say something, it didn’t say anything."
+    "It just sat there and whirred. I tried to make it jump, but it didn'’t."
+    "It just sat there and stared back at me."
+    "And then, the second time I tried to make it say something, it did. I couldn’t believe it. I just couldn''t believe it. It said 'Hello. Human.'"
+    "..."
+    ti "do you want to hear more?"
+    menu:
+        "Of course!":
+            jump ti_writing2_ext
+        "That's alright. I think I get the point.":
+            jump ti_storyReaction
+
+label ti_writing2_ext:
+    "The “it” was a machine called Samantha. I bought her at a company called Universal Robots."
+    "They make robots that you can program to do things. Samantha could dance, sing, do math, tell jokes, and even paint."
+    "She was one of the more advanced models. She was even smart enough to remember jokes she’d heard and use them to tell jokes of her own."
+    "When I bought her, she was one of the cheapest models, but the one that came with the most features. You could control her by remote, but if you wanted to be able to control her right in front of you. You could also connect her to a tablet!"
+    "I did. I had her hooked up to a tablet. I made her say more things. I was pleased."
+    "For the first time in my life, I had a real live robot that I could control. It was my own. I could make it do whatever I wanted. My own pet."
+    jump ti_storyReaction
+
+label ti_storyReaction:
     ti "..."
-    "That's really nice!"
+    you "That was really nice!"
     ti "...thanks. I appreciate that a lot."
     jump ti_question
-
-label ti_question:
-    ti "Can I ask you a question?"
-    "Sure!"
-    ti "Am I really just a tool for you to use?"
-    "...I don't know how to answer that..."
-    ###Bell triple ding
-    jump date_end
-
-
-
-
-
-
-
-    ## Brief Date Draft ##
-    # Shows you AI poetry
-    # Talks about learning and pattern finding
-    # Talk about loops and repeats and resonances
-    # You talk about loneliness
-    # As you start to get into it,, the power blows
-    # IF YOU NAMED IT “HAL” OR “HAL9000”, the power doesn’t blow but the the house starts coming for you, then you hear TI’s voice.
-    # Ending Credits
-
-    # OR #
-
-    # they just want to listen to music together with you.
-        # play one of andy's tracks (HCI if not in the game pack)
-    # starts talking about the world it imagines when it makes this music
-    # a place called the wired.
-    # everyone is connected
-    # "its perfect"
-    #  $VERY SCARY!$ wouldn't you like to join?
-    ## POWER SURGE ##
-
-
-label ti_question:
-    pause(1.0)
-    ody "Do you ever feel lonely? Like..."
-    ody "Like, you feel like you are the only one online?"
-    ody "Like you are just a copy of a shell of a being?

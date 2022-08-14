@@ -3,16 +3,17 @@
 label a4_date_mac:
     scene bg room
     show macFront
-    mac: "Do you want to look at some art?"
-    menu:
-        "Yeah of course!":
-            jump mac_clipArtGallery
-        "uh...I'll be *right* back":
-            jump date_night
 
-label mac_clipArtGallery:
-
-    ### somehow show user a bunch of clip art ###
+    pause(1.0)
+    mac "I wanted to ask you..."
+    mac "like...late at night, do you ever get that feeling?"
+    mac "That feeling that you just *HAVE* to *MAKE* something?"
+    ### Flash Screen with AI ###
+    pause(1.0)
+    mac "I feel that way a lot..."
+    mac "You know what..."
+    mac "I'm gunna show you some of my art!"
+    mac "Maybe it will inspire you! I've been really inspired lately"
 
 
 label mac_art_portfolio:

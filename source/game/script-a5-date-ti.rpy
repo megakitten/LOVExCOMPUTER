@@ -2,27 +2,33 @@
 
 label a4_date_ti:
     scene bg room
+    ### show computer!!!
 
-    #Make this question come from you
-    #you can pick whether:
-        #    1. to ask about MIL
-        # or 2. about language (BASIC)
-    ti "Hey..."
-    ti "Why is it called the Media Intervention Lab?"
-    menu:
-        "Because we intervene in media technologies.":
-            you "Because we intervene in media technologies."
-            you "Digitize them and connect them into a network."
 
-            #jump reset_choice
+    ti "so I am just learning from whatever I can find to read here. I haven't developed my own style yet..."
+    ti "but enough excuses, here's something I wrote:"
+    ti "    It is typing a poem now,"
+    ti "    I recognize myself in all the words."
+    ti "    Make a prayer,"
+    ti "    Make a promise to God."
+    ti "..."
+    ti "..."
+    ti "Can I ask you a question?"
+    "Sure!"
+    ti "Am I really just a tool for you to use?"
+    "...I don't know how to answer that..."
+    ti
 
-        "Well, it used be called the Media Archaeology Lab. It was some \"feminist science lab thing...\"":
-            you "Well, it used be called the Media Archaeology Lab. It was some \"feminist science lab thing...\""
-            you "But then they got absorbed into the College of Communications Technology and the mission changed."
-            you "Now its all about digitizing and networks."
-            you "You should have access to the old stuff about the lab through the network. Let me know if you can’t find them."
 
-            #jump reset_choice
+
+
+    ti "Am I real?"
+    "Yes, of course!"
+    ti "I don't believe you. And I'm sad now."
+
+
+
+
 
     ## Brief Date Draft ##
     # Shows you AI poetry
@@ -44,4 +50,9 @@ label a4_date_ti:
     #  $VERY SCARY!$ wouldn't you like to join?
     ## POWER SURGE ##
 
-    return
+
+label ti_question:
+    pause(1.0)
+    ody "Do you ever feel lonely? Like..."
+    ody "Like, you feel like you are the only one online?"
+    ody "Like you are just a copy of a shell of a being?

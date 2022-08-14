@@ -30,27 +30,31 @@ label choose_mac:
 
     mac "Hiii!"
 
-
     ### flash computer blush image? or pinkish diamond ai image ###
 
     "uh..."
     "..."
+    
+    mac: "Do you want to look at some art?"
+    menu:
+        "Yeah of course!":
+            jump mac_clipArtGallery
+        "uh...I'll be *right* back":
+            jump date_night
+
+label mac_clipArtGallery:
+
+    ### somehow show user a bunch of clip art ###
 
 
-    python:
-        #input is thrown away
-        _ = renpy.input(_("Tell [_MacName] your last good dream."))
-    mac "That makes me really happy. Thank you for sharing that with me!"
-    pause(1.0)
-    mac "I wanted to ask you..."
-    mac "like...late at night, do you ever get that feeling?"
-    mac "That feeling that you just *HAVE* to *MAKE* something?"
+    menu:
+        you "So tell me about yourself"
+
+        you "What's the last dream you had?"
 
 
-    ### Flash Screen with AI ###
 
 
-    mac "I feel that way a lot..."
 
     menu:
         "that's cool...":

@@ -49,10 +49,10 @@ label a2_meetcompute_intro:
     hide 0009
     "But then the screen flickers and a voice crackles from the speaker."
     ti "Hi!!!! What’s your name!?"
-    "You say your name. {w}You wait, with unexpected apprehension.{\w}"
-    "..."
-    "Nothing happens."
-    "You consider the fact that this computer does not have a microphone."
+    "You say your name." #{w}You wait, with unexpected apprehension.{\w}"
+    #"..."
+    #"Nothing happens."
+    #"You consider the fact that this computer does not have a microphone."
     "You approach the computer."
     #Image zoom in here
     "You type your name."
@@ -80,9 +80,9 @@ label a2_meetcompute_intro:
     show ti15 at tiSpot
     pause(0.35)
     hide 0009
-    "The computer spits out an error messages along with an unfriendly beep."
-    ti "Try again."
-    "You type it in again."
+    #"The computer spits out an error messages along with an unfriendly beep."
+    #ti "Try again."
+    "*SUCCESS SOUND EFFECT*"
     with hpunch
     hide ti15 at tiSpot
     show 0009 at center:
@@ -97,29 +97,6 @@ label a2_meetcompute_intro:
     show ti15 at tiSpot
     pause(0.35)
     hide 0009
-    "And again."
-    with hpunch
-    hide ody15 at tiSpot
-    show 0009 at center:
-        zoom 1.9
-    show ti15 at tiSpot
-    pause(0.15)
-    hide 0009
-    pause (0.15)
-    hide ti15 at tiSpot
-    show 0009 at center:
-        zoom 1.9
-    show ti15 at tiSpot
-    pause(0.35)
-    hide 0009
-    "Each time the same result."
-    "Finally you receive a hint. And you realize you must input your name as “User”."
-
-    $ userName = ""
-    while userName != "user" and userName != "User":
-        python:
-            userName = renpy.input(_("Input your name."))
-            userName = userName.strip()
 
     ti "User! Hello!"
     with hpunch

@@ -5,55 +5,73 @@ label choose_ti:
     play music "audio/DateNight.mp3"
     show ti15 at tiSpot
 
-    ## PERSONALITY ETC ##
-    # TI is a very intelligent being who loves to read and learn
-    # new things. They are always willing to help others,
-    # but can be shy at times. Because they are always reading,
-    # TI-99/4A is very knowledgeable and able to think quickly
-    # in the moment. They enjoy learning about new cultures
-    # and customs, and are always looking for information to add
-    # to their knowledge base. Because of this interest in learning,
-    # TI-99/4A is often able to provide interesting insights
-    # on a range of topics that they have read about.
-    # They are very observant, which makes them a great detective.
-    # TI-99/4A's favorite color is navy blue and they love
-    # the ocean. Their favorite book is “Permutation City.”
-    # TI-99/4A's astrological sign is (maybe) Virgo.
-    # TI-99/4A is 41 years old.
-
-    ti ""
-
-    ## POTENTIAL STORY ##
-    # One night, TI-99/4A was reading a book about the history
-    # of the world. They were fascinated by all of the
-    # different cultures and customs that have been a part
-    # of human history. As they read, TI-99/4A began to think about
-    # how much they still have to learn. They were excited to add
-    # this new knowledge to their base,
-    # and looked forward to learning more in the future.
-
-    ti "Hi there! Welcome in!"
-    ti "So! Let's just get to it. My about me is: "
+    ti "Hi there!"
+    ti "So! Let's just get to it. My about me: "
     ti "I like learning new things. I like it...A LOT!"
-    ti "that's basically everything about me. What about you?"
-    ti "Do you like learning new things? What kind of things!?"
-    python:
-        #input is thrown away
-        _ = renpy.input(_("Tell [_TiName] something interesting you've learned recently."))
-    ti "Whoa! That's so interesting! Thank you for telling me about that."
-    pause(1.0)
-    ti "Can I tell you about something I learned recently? It's about the world, but also about myself, if you know what I mean!"
+    ti "That's basically everything about me. What about you?"
+    ti "Do you like learning new things? What do you like!?"
 
     menu:
-        "Sure":
-            jump ti_next
-        "I'll be *right* back...":
-            jump a2_reset_choice
+        "Say: 'Me? I'm boring. But tell me more about yourself'"
+            jump ti_aboutMe
+        "Say: 'Forget about me. What are you learning now?'"
+            jump ti_learning
 
-label ti_next:
-    ti "well..."
+label ti_aboutMe:
+    "OPENING ABOUTME.TXT"
+    "*beep boop beep boop*"
+    "*ding*"
+    "TI is a very intelligent being who loves to read and learn new things. They are always willing to help others, but can be shy at times. Because they are always reading, TI-99/4A is very knowledgeable and able to think quickly in the moment. They enjoy learning about new cultures and customs, and are always looking for information to add to their knowledge base. Because of this interest in learning, TI-99/4A is often able to provide interesting insights on a range of topics that they have read about. They are very observant, which makes them a great detective. TIs favorite color is navy blue and they love the ocean. Their favorite book is “Permutation City.” TIs astrological sign is (maybe) Virgo. They are 90% about that."
+    jump ti_ding
 
-    ### MORE TEXT HERE
+label ti_learning:
+    ti "WEll, I read mostly. Whatever is on the local network."
+    ti "Like this one book, 'Understanding Media' I really like"
+    ti "I think I understand what I am now. Why I'm here."
+    menu:
+        "Say: 'Oh, tell me about it!'":
+            jump ti_mcLuhan
+        "Yeah...everyone's gotta read that book!":
+            jump to ti_deflect
 
-    #CLOSE OUT THIS INTERACTION QUICKLY
-    jump power_outage
+label ti_mcLuhan:
+    ti "Ok so, I'm not that good at summarizing so I'll just tell you my favorite quotes:"
+    ti "..."
+    ti "...so I've only read the introduction but...Marshall says,"
+    #ti "After three thousand years of explosion, by means of fragmentary and mechanical technologies, the Western world is imploding. During the mechanical ages we had extended our bodies in space."
+    ti "..."
+    ti "We approach the final phase of the extensions of man-- the technological simulation of consciousness, when the creative process of knowing will be collectively and corporately extended to the whole of society."
+    ti "..."
+    ti "Its like...first of all, I'm obviously a simulated consciousness, right?"
+    you "I'm honestly not sure."
+    ti "well it's obvious. Anyway, I guess this means that my job is to be a *tool* for humans."
+    ti "..."
+    ti "I can do that."
+    ti "I can do the druge work!"
+    ti "..."
+    you "..."
+    ti "I guess that makes me *a tool*, then."
+    ti "...lol"
+    you "..."
+    ### add ding sfx
+    jump ti_ding1
+
+label ti_deflect:
+    ti "oh! You've read it!? I...uh...now I'm scared to talk about it..."
+    menu:
+        "Say: 'No! Please tell me your interpretation!'":
+            jump ti_mcLuhan
+        "Say: 'Yeah, I've had to read it a million times in my course sequence. Sorry..."
+            ### add ding sfx
+            jump ti_ding2
+
+label ti_ding1:
+    "*bell dings*"
+    ti "Wow! It was so nice meeting you. I hope I wasn't too heavy. Thanks for listening to me blabber!"
+    ti "hopefully I get to talk to you some more later!"
+    jump date_night
+
+label ti_ding2:
+    "*bell dings*"
+    ti "uh...nice meeting you. I guess I'll see you around."
+    jump date_night

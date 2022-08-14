@@ -28,9 +28,7 @@ label choose_ody:
         _ = renpy.input(_("Tell [_OdyName] your deepest darkest worries."))
     ody "damn..."
     ody "i really feel that"
-    pause(1.0)
-    ody "Do you ever feel lonely? Like..."
-    ody "Like, you feel like you are the only one online?"
+
 
     ### Flash Screen with AI ###
 

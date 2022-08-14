@@ -2,10 +2,10 @@
 
 label a2_meetcompute_conversation:
     scene mal 00 with Dissolve(1)
-
     play music "audio/MeetCompute_TheChoice.mp3"
-
-    "You are in the MIL, again on a late night."
+    "..." # key in door?
+    "The familiar basement smell greats you."
+    "Another late night in the MIL."
     "This time you are digitizing Leisure Suit Larry for DOS (or Windows95?)."
     with hpunch
     show 0009 at center:
@@ -110,13 +110,14 @@ label a2_meetcompute_conversation:
     ti "I am a Texas Instruments TI 99/4A."
     ody "I am a Magnavox Odyssey..."
     all "but what you would like to call me?"
+    jump a2_reset_choice
+
+label a2_reset_choice:
     "Which computer terminal do you approach?"
     menu:
         "iMac G3":
             jump name_Mac
-
         "TI-99":
             jump name_Ti
-
         "Magnavox Odyssey":
             jump name_ody

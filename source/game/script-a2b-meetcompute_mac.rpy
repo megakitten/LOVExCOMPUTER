@@ -5,8 +5,6 @@ label choose_mac:
     play music "audio/DateNight.mp3"
     show macFront
 
-    
-
     ## PERSONALITY ETC ##
     # Mac is creative, innovative, and individualistic
     # but also a bit nervous and emotionally fragile.
@@ -30,23 +28,41 @@ label choose_mac:
     # She also became involved in several charities
     # that help improve the world for Aquarii.
 
-    #Old Draft Question - TAKE IT OR LEAVE IT
-    mac "Hey..."
-    mac "Why is it called the Media Intervention Lab?"
+    mac "Hi again!"
+    ### SAY MORE THINGS HERE"
+    python:
+        #input is thrown away
+        _ = renpy.input(_("Tell [_MacName] your last good dream."))
+    mac "That makes me really happy. Thank you for sharing that with me!"
+    pause(1.0)
+    mac "I wanted to ask you..."
+    mac "like...late at night, do you ever get that feeling?"
+    mac "That feeling that you just *HAVE* to *MAKE* something?"
+    ### Flash Screen with AI ###
+    mac "I feel that way a lot..."
+
     menu:
-        "Because we intervene in media technologies.":
-            you "Because we intervene in media technologies."
-            you "Digitize them and connect them into a network."
+        "that's cool...":
+            jump mac_leave
+        "Wow, that's fascinating":
+            jump mac_next
+        "omfg me too! tell me more!":
+            jump mac_moreInfo
 
-            #jump reset_choice
+label mac_leave:
+    menu:
+        "ok, im still into this":
+            jump mac_next
+        "I'll be *right* back..."
+            jump a2_reset_choice
 
-        "Well, it used be called the Media Archaeology Lab. It was some \"feminist science lab thing...\"":
-            you "Well, it used be called the Media Archaeology Lab. It was some \"feminist science lab thing...\""
-            you "But then they got absorbed into the College of Communications Technology and the mission changed."
-            you "Now its all about digitizing and networks."
-            you "You should have access to the old stuff about the lab through the network. Let me know if you can’t find them."
-
-            #jump reset_choice
+label mac_moreInfo:
+    ### add content here if time
+    you "how often do you feel that way?"
+    mac "oh! well like...all the time, really!"
+    jump mac_next
 
 
-    jump reset_choice
+label mac_next:
+    #CLOSE OUT THIS INTERACTION QUICKLY
+    jump power_outage

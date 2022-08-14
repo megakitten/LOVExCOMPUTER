@@ -4,45 +4,7 @@ label choose_ody:
     scene mal 00 with Dissolve(1)
     play music "audio/DateNight.mp3"
     show ody45 at tiSpot
-    ody "Hey..."
-    ody "So what's your story? You can be honest with me."
-    ody "I'm actually training to be a therapist. I've been told that I'm a good listener!"
-    python:
-        #input is thrown away
-        _ = renpy.input(_("Tell [_OdyName] your deepest darkest worries."))
-    ody "damn..."
-    ody "i really feel that"
-    pause(1.0)
-    ody "Do you ever feel lonely? Like..."
-    ody "Like you feel like you are the only one online?"
 
-    ### Flash Screen with AI ###
-
-    ody "I felt that way. But then I went and got everyone together."
-    ody "A big ol {size=+7}LAN party!.{size=-7} IT wuz {size=+2}uh{size=+7} F*(&ing Cl4ssic!"
-
-    menu:
-        "thats cool... [make excuse and leave]":
-            jump ody_leave
-        "CHILL AF!!!":
-            jump ody_next
-        "omfg tell me more":
-            jump ody_moreInfo
-
-label ody_leave:
-    menu:
-        "hope you have another party soon! seems like a jam!":
-            jump ody_next
-        "I'll be *right* back..."
-            jump a2_reset_choice
-
-
-
-label ody_moreInfo:
-    ### add content here if time
-    jump ody_next
-
-label ody_next:
     ## PERSONALITY ETC ##
     # is a playful and curious soul who loves to explore
     # new activities. They are energetic, outgoing and
@@ -54,12 +16,52 @@ label ody_next:
     # book is Riplies Believe It or Not. Their astrological sign
     # is Pisces. Odyssey is (CurrYear - 1972) years old.
 
+    ody "Hey..."
+    ody "So what's your story? Tell me anything."
+    ody "I've been told that I'm a good listener!"
+    ody "I'm actually training to be a therapist."
+    python:
+        #input is thrown away
+        _ = renpy.input(_("Tell [_OdyName] your deepest darkest worries."))
+    ody "damn..."
+    ody "i really feel that"
+    pause(1.0)
+    ody "Do you ever feel lonely? Like..."
+    ody "Like, you feel like you are the only one online?"
+
+    ### Flash Screen with AI ###
+
+    ody "I felt that way. But then I went and got everyone together."
+    ody "A big ol {size=+7}LAN party!.{size=-7} IT wuz {size=+2}uh{size=+7} F*(&ing Cl4ssic!"
+
+    menu:
+        "thats cool... [make excuse and leave]":
+            jump ody_leave
+        "YOURE A LEGEND!":
+            jump ody_next
+        "omfg tell me more":
+            jump ody_moreInfo
+
+label ody_leave:
+    menu:
+        "hope you have another party soon! seems like a jam!":
+            jump ody_next
+        "I'll be *right* back..."
+            jump a2_reset_choice
+
+label ody_moreInfo:
+    ### add content here if time
+
     ## INCOMPLETE STORY IDEAS ##
     # One night, Magnavox Odyssey went to a LAN party
     # and had the best time! They met so many new folks and
     # gyrated until they couldn't move anymore.
     # libi had to come in and fix them the next.
-    # Just before they were unplugged,
 
+    # is odysessy high-key poly?
 
-#jump reset_choice
+    jump ody_next
+
+label ody_next:
+
+    jump power_outage

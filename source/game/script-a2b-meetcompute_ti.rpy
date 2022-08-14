@@ -4,7 +4,6 @@ label choose_ti:
     scene mal 00 with Dissolve(1)
     play music "audio/DateNight.mp3"
     show ti15 at tiSpot
-    ti ""
 
     ## PERSONALITY ETC ##
     # TI is a very intelligent being who loves to read and learn
@@ -22,6 +21,8 @@ label choose_ti:
     # TI-99/4A's astrological sign is Virgo.
     # TI-99/4A is 41 years old.
 
+    ti ""
+
     ## POTENTIAL STORY ##
     # One night, TI-99/4A was reading a book about the history
     # of the world. They were fascinated by all of the
@@ -31,4 +32,28 @@ label choose_ti:
     # this new knowledge to their base,
     # and looked forward to learning more in the future.
 
-    jump reset_choice
+    ti "Hi there! Welcome in!"
+    ti "So! Let's just get to it. My about me is: "
+    ti "I like learning new things. I like it...A LOT!"
+    ti "that's basically everything about me. What about you?"
+    ti "Do you like learning new things? What kind of things!?"
+    python:
+        #input is thrown away
+        _ = renpy.input(_("Tell [_TiName] something interesting you've learned recently."))
+    ti "Whoa! That's so interesting! Thank you for telling me about that."
+    pause(1.0)
+    ti "Can I tell you about something I learned recently? It's about the world, but also about myself, if you know what I mean!"
+
+    menu:
+        "Sure":
+            jump ti_next
+        "I'll be *right* back..."
+            jump a2_reset_choice
+
+label ti_next:
+    ti "well..."
+
+    ### MORE TEXT HERE
+
+    #CLOSE OUT THIS INTERACTION QUICKLY
+    jump power_outage

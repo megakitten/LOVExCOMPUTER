@@ -12,8 +12,8 @@ label name_mac:
 
 label name_ti:
     python:
-        _TiName = renpy.input(_("Name the TI-99."))
-        _TiName = _TiName.strip() or ("TI-99")
+        _TiName = renpy.input(_("Name the TI-99/4A."))
+        _TiName = _TiName.strip() or ("TI-99/4A")
         _TiHAL = _TiName == "HAL9000"
     define ti = Character("[_TiName]",
     who_font="ChicagoFLF.ttf", who_size=40,
@@ -31,19 +31,3 @@ label name_ody:
     jump choose_ody
 
     return
-
-label reset_choice:
-    scene mal 00 with Dissolve(1)
-    "You ask, confusedly: “What do I call you?”"
-    all "I don't know..."
-    all "Please tell me what you would like to call me."
-    "Select which computer to name."
-    menu:
-        "iMac G3":
-            jump name_mac
-
-        "TI-99/4A":
-            jump name_ti
-
-        "Magnavox Odyssey":
-            jump name_ody

@@ -1,12 +1,19 @@
 # Act 2, Meet Compute
 
 label a2_meetcompute_intro:
-
     play music "audio/MeetCompute.mp3"
 
     scene mal 00 with Dissolve(1)
+
+    ### storm sfx, use Andes recordings
+    e "It's raining. Hard."
+    e "You park on the street outside of the MIL."
+    e "You hope campus PD doesn't write you a ticket..."
+    e "..." # key in door?
+    e "The familiar basement smell greats you."
+
     show macFront
-    "On another night, you are sitting in front of the iMac G3 with your laptop and an external CD drive, digitizing “If Monks Had Macs.”"
+    "You are sitting in front of the iMac G3 with your laptop and an external CD drive, digitizing “If Monks Had Macs.”"
     with hpunch
     "You hear something behind you."
     "Could it be... {w}a voice?{\w}"

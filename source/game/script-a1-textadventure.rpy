@@ -1,19 +1,13 @@
 # Act 1, Text Adventure
 
 label a1_textadventure:
-    # move all the narrative parts of script.rpy
-    # (other than char. defs.)
-    # here.
-
-    # call this script from script.rpy at start
-    # after all the initializing etc. is done
-
+    ### DIFFERENT MUSIC HERE ###
     play music "audio/Digitizing.mp3"
 
     #Dialogue Begins
     show textDisplay "Welcome to the Media Archaeology Lab"
     $ renpy.pause(delay=None)
-    show textDisplay "You must be new. I haven't seen you around here before."
+    show textDisplay "I haven't seen you around here before. You must be new."
     $ renpy.pause(delay=None)
     show textDisplay "{i}I would've remembered you...{i}"
     $ renpy.pause(delay=None)

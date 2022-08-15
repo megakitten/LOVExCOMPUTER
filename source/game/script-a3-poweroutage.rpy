@@ -5,12 +5,15 @@ label power_outage:
 
     ### show all black OR flicker metallic ai bg image
 
-    ### WHAT HAPPENS HERE ???  ###
-
     "There has been a power outage."
-    "For now, here is where the adventure ends."
-    "However,"
-    "If you choose to play again, tryy naming yourself and the TI-99/4A after the protagonist and computer in the film HER."
+    "You can come back every night for a year. It won't make a difference. This is the last time you speak to your soul computer."
+    "I am sorry."
+    "Here is where the adventure ends."
+    ""
+    "..."
+    "...unless you replay the game!"
+    "AND *If* you choose to play again, tryy naming yourself and the TI-99/4A after the protagonist and computer in the film HER."
     "{size=-5}You might just find some unfinished bonus material..."
-    "Thank you very much for playing!"
+
+    "Thank you so much for playing!"
     jump credits

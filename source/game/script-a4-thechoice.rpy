@@ -3,7 +3,7 @@
 label date_night:
     "..." # key in door?
     "You unlock the door for what feels like the millonth time."
-    "You great the familiar basement smell."
+    "You greet the familiar basement smell."
     scene bg room
 
     show macFront at macTop

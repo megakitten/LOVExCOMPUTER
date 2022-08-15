@@ -14,7 +14,7 @@ label name_ti:
     python:
         _TiName = renpy.input(_("Name the TI-99/4A."))
         _TiName = _TiName.strip() or ("TI-99/4A")
-        _TiElectricDreams = (_TiName == "Miles") and (_InputName == "Edgar")
+        _TiHer = (_OdyName == "Samantha") and (_InputName == "Theordore")
     define ti = Character("[_TiName]",
     who_font="ChicagoFLF.ttf", who_size=40,
     what_font="ChicagoFLF.ttf", what_size=27, what_slow_cps=20, what_slow_abortable=False)
@@ -24,7 +24,7 @@ label name_ody:
     python:
         _OdyName = renpy.input(_("Name the Magnavox Odyssey."))
         _OdyName = _OdyName.strip() or ("Magnavox Odyssey")
-        _OdyHer = (_OdyName == "Samantha") and (_InputName == "Theordore")
+        _OdyElectricDreams = (_TiName == "Miles") and (_InputName == "Edgar")
     define ody = Character("[_OdyName]",
     who_font="ChicagoFLF.ttf", who_size=40,
     what_font="ChicagoFLF.ttf", what_size=27, what_slow_cps=20, what_slow_abortable=False)

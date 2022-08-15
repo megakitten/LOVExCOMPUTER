@@ -26,6 +26,10 @@ label outro:
 
     ### include their bios at the end (for the easter eggs)
 
+    ### would you like to hear any of the music again?
+
+    ### --> include a menu when allows user to play the songs
+    
     return
 
 

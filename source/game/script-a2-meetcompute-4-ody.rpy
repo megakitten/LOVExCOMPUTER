@@ -5,31 +5,6 @@ label choose_ody:
     play music "audio/DateNight.mp3"
     show ody45 at tiSpot
 
-#    menu:
-#        you "So tell me about yourself"
-#
-#        you "What's the last dream you had?"
-#
-#
-#    menu:
-#        "Wow, that's fascinating":
-#            jump mac_next
-#        "omfg me too! tell me more!":
-#            jump mac_moreInfo
-
-    ### ODY TELLS YOU ABOUT THE LOCAL NETWORK AND HOW ITS JUST A BIG PARTY
-
-    ## PERSONALITY ETC ##
-    # is a playful and curious soul who loves to explore
-    # new activities. They are energetic, outgoing and
-    # love hosting parties. They are creative and have a knack
-    # for coming up with new ideas. They are also independent
-    # and can be a bit of a rule breaker,
-    # while maintaining a perpetually positive attitude.
-    # Magnavox Odyssey’s favorite color is green and favorite
-    # book is Riplies Believe It or Not. Their astrological sign
-    # is (maybe) Pisces. Odyssey is (CurrYear - 1972) years old.
-
     ### Flash Screen with AI ###
     ody "Do you ever feel lonely? Like..."
     ody "Like, you feel like you are the only one online?"

@@ -14,8 +14,11 @@ label date_night:
     "Who do you want to get to know better?"
     menu:
         "[_MacName]":
-            jump date_mac
+            #jump date_mac
+            jump power_outage
         "[_TiName]":
-            jump date_ti
+            #jump date_ti
+            jump power_outage
         "[_OdyName]":
-            jump date_ody
+            #jump date_ody
+            jump power_outage

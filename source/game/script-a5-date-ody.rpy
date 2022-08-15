@@ -1,8 +1,8 @@
+### Not Referenced in v1.0 ###
 # Act 5, Odyssey Date
 
 label date_ody:
     scene bg room
-    "Date Ody"
 
     ### ODYSSEY SHOWS YOUR THEIR DREAM VIDEOS, AND TALKS ABOUT THE WIRED
 

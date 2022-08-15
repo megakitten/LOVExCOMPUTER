@@ -2,7 +2,6 @@
 
 label a2_meetcompute_intro:
     play music "audio/MeetCompute.mp3"
-
     scene mal 00 with Dissolve(1)
 
     ### storm sfx, use Andes recordings
@@ -12,7 +11,6 @@ label a2_meetcompute_intro:
     "You hope campus PD doesn't write you a ticket..."
     "..." # key in door?
     "The familiar basement smell greats you."
-
     show macFront
     "You are sitting in front of the iMac G3 with your laptop and an external CD drive, digitizing “If Monks Had Macs.”"
     with hpunch

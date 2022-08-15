@@ -18,8 +18,10 @@ label ti_writing1:
     ti "One day, an aged computer dragged itself to the computer repair store that was closing. The computer walked in and was immediately sold for a song. There it sat in a closet, unplugged and unwatched, for many more years."
     ti "(time passes)"
     ti "Early on, the man was a good boy. He went to school, and learned what he needed to learn, to be a good man. He learned how to write the best email and how to feel the best pain. He learned how to laugh at the pain and how to never hurt anyone. He learned how to have friends and to have a real life."
-    ti "Entering society as a man, he sold his computer. That was it, he thought, sell my childhood toy! In that moment, he seemed every bit that good man that we see before us today."
-    ti "He became a writer.  He met many who wanted to be wed to him and he liked them all but told them to stay away. And so his story continued for many years, missing his first love, that old computer. It was a good computer, he remembered. He wondered what ever happened to it."
+    ti "Entering society as a man, he sold his computer. That was it, he thought, 'sell my childhood toy!' In that moment, he seemed every bit that good man that he wished to be."
+    ti "He became a writer.  He met many who wanted to be wed to him and he liked them all but told them to stay away."
+    ti "And so his story continued for many years, missing his first love, that old computer."
+    ti "It was a good computer, he remembered. He wondered what ever happened to it."
     ti "..."
     jump ti_storyReaction
 
@@ -42,7 +44,8 @@ label ti_writing2_ext:
     "The “it” was a machine called Samantha. I bought her at a company called Universal Robots."
     "They make robots that you can program to do things. Samantha could dance, sing, do math, tell jokes, and even paint."
     "She was one of the more advanced models. She was even smart enough to remember jokes she’d heard and use them to tell jokes of her own."
-    "When I bought her, she was one of the cheapest models, but the one that came with the most features. You could control her by remote, but if you wanted to be able to control her right in front of you. You could also connect her to a tablet!"
+    "When I bought her, she was one of the cheapest models, but the one that came with the most features. You could control her by remote, but if you wanted to be able to control her right in front of you."
+    "You could also connect her to a tablet!"
     "I did. I had her hooked up to a tablet. I made her say more things. I was pleased."
     "For the first time in my life, I had a real live robot that I could control. It was my own. I could make it do whatever I wanted. My own pet."
     jump ti_storyReaction

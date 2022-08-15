@@ -1,6 +1,7 @@
+### Not Referenced in v1.0 ###
 # Act 5, Mac Date
 
-label adate_mac:
+label date_mac:
     scene bg room
     show macFront
     pause(1.0)

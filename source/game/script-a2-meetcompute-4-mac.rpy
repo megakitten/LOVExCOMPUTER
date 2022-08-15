@@ -28,7 +28,6 @@ label mac_clipArtGallery:
 
     ### somehow show user a bunch of clip art ###
 
-
 label mac_leave:
     menu:
         "Nevermind! Let's look at some art!":

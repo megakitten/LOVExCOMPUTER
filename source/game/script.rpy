@@ -86,6 +86,25 @@ image mal 01:
     zoom 1.5
     yalign 0.4
 
+image mal date:
+    "mal detail 00.jpeg"
+    zoom 1.5
+    yalign 0.4
+
+image wired:
+    "0014.png"
+    zoom 1.5
+    yalign 0.4
+
+image art1:
+    "genImages-0002.png"
+
+image art2:
+    "genImages-0005.png"
+
+image art3:
+    "genImages-0014.png"
+
 default _InputName = "Unnamed Graduate Student 47"
 default _InputPronoun = "they"
 default _MacName = "iMac G3"

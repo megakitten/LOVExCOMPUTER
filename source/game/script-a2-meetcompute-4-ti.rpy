@@ -5,10 +5,17 @@ label choose_ti:
     play music "audio/DateNight.mp3"
     show ti15 at tiSpot
 
+    ### " Hi there! So! Let's get to it. About me...well, I like learning new things. I like it...A LOT! "
+    voice "audio/TI_line10.wav"
+
     ti "Hi there!"
     ti "So! Let's get to it. About me...well, "
     ti "I like learning new things. I like it...A LOT!"
-    ### one more line here?
+
+
+    ### " What about you "
+    voice "audio/TI_line11.wav"
+
     ti "That's basically everything about me. What about you?"
     ti "Do you like learning new things? What do you like!?"
 

@@ -4,7 +4,10 @@ label date_night:
     "..." # key in door?
     "You unlock the door for what feels like the millonth time."
     "You greet the familiar basement smell."
-    scene bg room
+
+    ### new room, vinyl?
+
+    scene mal date
 
     show macFront at macTop
     show ti15 at tiRight:

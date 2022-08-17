@@ -96,7 +96,7 @@ label a2_meetcompute_conversation:
     show 0001 at center:
         zoom 1.9
     pause (0.15)
-    hide 001
+    hide 0001
     show 0009 at center:
         zoom 1.9
     pause(0.35)

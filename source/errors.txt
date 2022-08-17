@@ -2,9 +2,37 @@
 errors listed below, and try again.
 
 
-File "game/script-a1-textadventure.rpy", line 93: expected statement.
-    Pause(3)
-            ^
+File "game/script.rpy", line 90: ATL statement contains two expressions in a row; is one of them a misspelled property? If not, separate them with pass.
+(Perhaps you left out a " at the end of the first line.)
+    "mal detail 00
+        zoom 1.5
+        yalign 0.4
+    
+    default _InputName = "Unnamed Graduate Student 47"
+                                      ^
+    default _InputPronoun = "they"
+    default _MacName = "iMac G3"
+    default _TiName = "TI-99/4A"
+    default _OdyName = "Magnavox Odyssey"
+    image my_movie = Movie(channel="movie_dp", play="griddigitaldreaminsidebloodywires3.mp4")
+    
+    image textDisplay = ParameterizedText(yanchor=920, xanchor=550, xysize=(1080,1080), font="ChicagoFLF.ttf", size=40, slow_cps=20)
+    #image textDisplay = ParameterizedText(yanchor=880, xanchor=220, xysize=(450,400), font="ChicagoFLF.ttf", size=20, slow_cps=20)
+    
+    # The game starts here.
+    
+    label start:
+    
+        scene mal 00 with Dissolve(1)
+    
+        # Narration
+        "You are the newly hired graduate student tasked with digitizing the aging collection of the Media Innovation Lab at your university."
+        scene mal 01 with Dissolve(0.5)
+        "One late night, you are digitizing the game, \"Leather Goddess of Phobos\" made for the Apple II when you hear a noise behind you."
+
+File "game/script-a6-endings.rpy", line 4: expected 'image_name_component' not found.
+    show "0009.jpg"
+         ^
 
 Ren'Py Version: Ren'Py 8.0.1.22070801
-Tue Aug 16 21:26:32 2022
+Wed Aug 17 15:14:34 2022

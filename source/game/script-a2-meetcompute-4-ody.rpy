@@ -5,9 +5,16 @@ label choose_ody:
     play music "audio/DateNight.mp3"
     show ody45 at tiSpot
 
+    ### " Do you ever feel lonely? Like the only one online? "
+    voice "audio/Odyssey_line6.wav"
+
     ### Flash Screen with AI ###
     ody "Do you ever feel lonely? Like..."
     ody "Like, you feel like you are the only one online?"
+
+    ### " Like a copy of a shell  script of a being? "
+    voice "audio/Odyssey_line6.wav"
+    
     ody "Like you are just a copy of a shell  script of a being?"
     ody "I felt that way."
     ody "But then I went and got everyone together."

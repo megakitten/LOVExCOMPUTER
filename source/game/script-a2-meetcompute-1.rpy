@@ -15,7 +15,9 @@ label a2_meetcompute_intro:
     "You are sitting in front of the iMac G3 with your laptop and an external CD drive, digitizing “If Monks Had Macs.”"
     with hpunch
     "You hear something behind you."
+    ### "h. h. hi."
     "Could it be... {w}a voice?{\w}"
+    ### "hi"
     scene mal 01 with Dissolve(0.5)
     show ody45 at odyLeft
     show ti15 at tiRight
@@ -24,8 +26,10 @@ label a2_meetcompute_intro:
     scene mal 00 with Dissolve(0.5)
     show macFront
     with hpunch
-    "Then you hear it again, unmistakably a voice. {w}But, a computer’s voice.{\w}"
-    "You recognize the source now, even before you turn around."
+    "Then you hear it again, unmistakably a voice."
+    ### "hello."
+    "{w}But, a computer’s voice.{\w}"
+    "Before you turn around, you know the source."
     scene mal 01 with Dissolve (0.5)
     show ti15 at tiSpot
     "The TI-99 and its accompanying screen sit stoically, in near silence. Only the whine of the monitor permeates the silence."
@@ -56,13 +60,13 @@ label a2_meetcompute_intro:
     "You type your name."
     python:
         _InputName = renpy.input(_("Input your name."))
-        _InputName = _InputName.strip() or ("Unnamed Graduate Student 47")
+        _InputName = _InputName.strip() or ("Tetsuo")
     define you = Character("[_InputName]")
     ti "Input your pronouns."
     "You type your pronouns."
     python:
         _InputPronoun = renpy.input(_("Input your pronouns."))
-        _InputPronoun = _InputPronoun.strip() or ("they")
+        _InputPronoun = _InputPronoun.strip() or ("&amp")
     #define z = Character("[_InputPronoun]")
     with hpunch
     hide ti15 at tiSpot

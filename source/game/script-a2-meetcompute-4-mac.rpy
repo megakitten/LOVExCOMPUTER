@@ -6,58 +6,60 @@ label choose_mac:
     scene mal 00 with Dissolve(1)
     play music "audio/DateNight.mp3"
     show macFront
-
-    mac "Hiii!"
-
-    ### flash computer blush image? or pinkish diamond ai image ###
+    pause(1.0)
+    mac "I wanted to ask you..."
+    mac "like...late at night, do you ever get that feeling?"
+    mac "That feeling that you just *HAVE* to *MAKE* something?"
+    ### Flash Screen with AI ###
+    pause(1.0)
+    mac "I feel that way a lot..."
+    mac "..."
+    mac "You know what..."
+    mac "I'm gunna show you some of my art!"
+    mac "Maybe it will inspire you! I've been really inspired lately!"
+    mac "So..."
+    mac "...do want to see some of my art?"
     menu:
-        "uh...":
-            jump mac_invitation
-        "...":
-            jump mac_invitation
+        "i guess":
+            jump mac_artPortfolio1
+        "of course!":
+            jump mac_artPortfolio2
 
-label mac_invitation:
-    mac "Do you want to look at some art?"
-    menu:
-        "Yeah of course!":
-            jump mac_clipArtGallery
-        "uh...I'll be *right* back":
-            jump mac_leave
+label mac_artPortfolio1:
+    ### show 0001.jpg
+    "The accompanying text reads,"
+    "I was told,
+    ' Make a prayer,
+    Make a promise to God! '
 
-label mac_clipArtGallery:
+    But as I watch,
+    She is typing up that very poem now,
+    and I recognize myself in all the words."
+    jump mac_artReaction
 
-    ### somehow show user a bunch of clip art ###
+label mac_artPortfolio2:
+    ### replace image
+    ### show 0004.jpg
+    "The accompanying text reads,"
+    "It was my own. I could make it do whatever I wanted. My own pet."
+    jump mac_artReaction
 
-label mac_leave:
-    menu:
-        "Nevermind! Let's look at some art!":
-            jump mac_next
-        "just a sec...":
-            jump a2_reset_choice
+label mac_artReaction:
+    mac "..."
+    you "That's really nice!"
+    mac "...thanks. I appreciate that a lot."
+    jump mac_question
 
-label mac_moreInfo:
+label mac_art_portfolio:
 
-    ### add content here if time
+    ### somehow display some ai gen pix/vids
+        # --> slowly getmacng closer to figures
 
-    you "how often do you feel that way?"
-    mac "oh! well like...all the time, really!"
-    jump mac_next
+label mac_questions:
 
-
-label mac_next:
-    ###
-
-    ### bring up
-
-
-    ## PERSONALITY ETC ##
-    # Mac is creative, innovative, and individualistic
-    # but also a bit nervous and emotionally fragile.
-    # They are into art and they have a passion for helping others.
-    # G3 is (possibly) an Aquarius. Their favorite activities are all
-    # art-related, and they are always looking for ways
-    # to improve the world around them.
-    # They can be overly idealistic
-    # and they can become detached from reality at times.
-    # They like to read old design books on things like color theory.
-    # Their favorite color is light blue, and their favorite food is salmon.
+    mac "Can I ask you a question?"
+    "Sure!"
+    mac "What makes us so different?"
+    "..."
+    ###Bell triple ding sfx
+    jump date_end

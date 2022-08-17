@@ -1,7 +1,7 @@
 # Act 2, Meet Compute
 
 label a2_meetcompute_intro:
-    play music "audio/MeetCompute.mp3"
+    play music "audio/MeetCompute_TheChoice.mp3"
     scene mal 00 with Dissolve(1)
 
     ### storm sfx, use Andes recordings

@@ -1,22 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script-a4-thechoice.rpy", line 19, in script
-    jump date_ti
-ScriptError: could not find label 'date_ti'.
+  File "game/script-a2-meetcompute-2.rpy", line 127, in script
+    jump name_Ti
+ScriptError: could not find label 'name_Ti'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script-a4-thechoice.rpy", line 19, in script
-    jump date_ti
+  File "game/script-a2-meetcompute-2.rpy", line 127, in script
+    jump name_Ti
   File "C:\Users\19173\Dropbox\PC (2)\Desktop\renpy-7.4.11-sdk\renpy\ast.py", line 1974, in execute
     rv = renpy.game.script.lookup(target)
   File "C:\Users\19173\Dropbox\PC (2)\Desktop\renpy-7.4.11-sdk\renpy\script.py", line 927, in lookup
     raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'date_ti'.
+ScriptError: could not find label 'name_Ti'.
 
 Windows-10-10.0.19044 AMD64
 Ren'Py 8.0.1.22070801
 LOVExCOMPUTER 1.0
-Sun Aug 14 16:17:08 2022
+Sun Aug 14 18:33:13 2022

@@ -11,6 +11,7 @@ label date_mac:
     ### Flash Screen with AI ###
     pause(1.0)
     mac "I feel that way a lot..."
+    mac "..."
     mac "You know what..."
     mac "I'm gunna show you some of my art!"
     mac "Maybe it will inspire you! I've been really inspired lately"

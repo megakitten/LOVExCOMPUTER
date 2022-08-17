@@ -2,7 +2,7 @@
 
 label a2_meetcompute_conversation:
     scene mal 00 with Dissolve(1)
-    play music "audio/MeetCompute_TheChoice.mp3"
+    play music "audio/MeetCompute.mp3"
     "..." # key in door?
     "The familiar basement smell great you."
     "You hope campus parking enforcement doesn't write you a ticket..."

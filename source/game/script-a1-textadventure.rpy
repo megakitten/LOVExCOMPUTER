@@ -90,6 +90,6 @@ label a1_textadventure:
     scene black
     "You shut the lights off and lock up the Media Innovation Lab. You're tired."
     ### lights off sfx
-    Pause(3)
+    pause(3)
     jump a2_meetcompute_intro
     return

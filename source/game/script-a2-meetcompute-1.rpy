@@ -5,19 +5,25 @@ label a2_meetcompute_intro:
     scene mal 00 with Dissolve(1)
 
     ### storm sfx, use Andes recordings
-
-    "It's raining. Hard."
     "You park on the street outside of the MIL."
+    "It's raining. Hard."
     "You hope campus PD doesn't write you a ticket..."
-    "..." # key in door?
-    "The familiar basement smell greats you."
+    "...*key in lock sfx*..."
+    "The familiar basement smell greets you."
     show macFront
+    pause(2)
     "You are sitting in front of the iMac G3 with your laptop and an external CD drive, digitizing “If Monks Had Macs.”"
     with hpunch
-    "You hear something behind you."
+
     ### "h. h. hi."
+    voice "audio/TI_line1.wav"
+
+    "You hear something behind you."
     "Could it be... {w}a voice?{\w}"
+
     ### "hi"
+    voice "audio/TI_line2.wav"
+
     scene mal 01 with Dissolve(0.5)
     show ody45 at odyLeft
     show ti15 at tiRight
@@ -27,8 +33,12 @@ label a2_meetcompute_intro:
     show macFront
     with hpunch
     "Then you hear it again, unmistakably a voice."
-    ### "hello."
     "{w}But, a computer’s voice.{\w}"
+
+    ### "hello."
+    voice "audio/TI_line3.wav"
+
+
     "Before you turn around, you know the source."
     scene mal 01 with Dissolve (0.5)
     show ti15 at tiSpot
@@ -49,12 +59,17 @@ label a2_meetcompute_intro:
     show ti15 at tiSpot
     pause(0.35)
     hide 0009
+
+    ### "Hi!!!! What’s your name!?"
+    voice "audio/TI_line4.wav"
+
     "But then the screen flickers and a voice crackles from the speaker."
     ti "Hi!!!! What’s your name!?"
-    "You say your name." #{w}You wait, with unexpected apprehension.{\w}"
-    #"..."
-    #"Nothing happens."
-    #"You consider the fact that this computer does not have a microphone."
+
+    "You say your name. {w}You wait, with  apprehension.{\w}"
+    "..."
+    "Nothing happens."
+    "You consider the fact that this computer does not have a microphone."
     "You approach the computer."
     #Image zoom in here
     "You type your name."
@@ -101,6 +116,8 @@ label a2_meetcompute_intro:
     hide 0009
 
     ti "User! Hello!"
+    voice "audio/TI_line5.wav"
+
     with hpunch
     hide ti15 at tiSpot
     show 0009 at center:
@@ -126,9 +143,13 @@ label a2_meetcompute_intro:
     show ti15 at tiRight
     show ody45 at odyLeft
     with hpunch
+
+    ### "hello user"
+    voice "audio/odyssey_line1.wav"
+
     "Then the Magnavox Odyssey’s screen flickers to life."
-    ody "User! Hello!"
-    "You are now supremely confused."
+    ody "Hello! User!"
+    "Umm..."
     with hpunch
     show 0009 at center:
         zoom 1.9
@@ -154,14 +175,15 @@ label a2_meetcompute_intro:
     show my_movie
     "The voices, including the G3, start talking over each other building to a crescendo, then the screen goes black."
     scene black
+    pause(2)
     "You have passed out, overwhelmed by the realization that these computers are sentient."
 
     ### space for the starry night video perhaps? ###
 
-    #Not sure if this is supposed to be included or not (below)
+    # BELOW (next vers.)
     #DREAM SEQUENCE about the computers? [dont have to do this yet. Just an idea]
     #When you wake up, the computers are chatting among themselves, the text of their speech displaying on their respective screens.
-    #This is when you have the choice of which computer to romance. [Choice: G3, Odyssey, TI99]
+    #This is when you have the choice of which computer to know. [Choice: G3, Odyssey, TI99]
 
     jump a2_meetcompute_conversation
 

@@ -121,15 +121,13 @@ label a2_meetcompute_conversation:
     ### " Oh My God! I just learned this! You have to raise the legs and shake them! "
     voice "audio/Mac_line3.wav"
 
-    mac "[_InputName]! [_InputName]! {size=-7}Oh I just learned about this! You have to raise [_InputPronoun] legs and {i}shake them{/i}!"
-
-    #voice "audio/Mac_line4.wav"
-    mac "{size=+7}Oh NO! {size=+5}How Do *I* SHAKE {size=+7}[_InputPronoun] LEGS!"
-    pause(0.55)
+    mac "[_InputName]! [_InputName]! {size=-3}Oh {/size}I just learned about this! You have to raise [_InputPronoun] legs and {i}shake them{/i}!"
 
     ### " Oh no! How Do I shake someone's legs? "
-    voice "audio/Mac_Line4"
+    voice "audio/Mac_Line4.wav"
 
+    mac "{size=+7}Oh NO! {/size}{size=+5}How Do *I* SHAKE{/size} {size=+7}[_InputPronoun] LEGS!{/size}"
+    pause(0.55)
     "You get up, unsteadily."
     #[ a brief moment of wavy screen effect ] this should be better but im jsut overalaying ai for now
     show 0009 at center:
@@ -148,19 +146,19 @@ label a2_meetcompute_conversation:
     pause (0.35)
 
 
-    voice "audio/TI_Line8"
+    voice "audio/TI_Line8.wav"
     ti "I am a Texas Instruments 99/4A."
 
 
-    voice "audio/Odyssey_Line4"
+    voice "audio/Odyssey_Line4.wav"
     ody "I am a Magnavox Odyssey!"
 
 
 
     ### "but what would you like to call me?
-    voice "audio/Odyssey_Line5"
-    voice "audio/TI_Line9"
-    voice "audio/Mac_Line5"
+    voice "audio/Odyssey_Line5.wav"
+    voice "audio/TI_Line9.wav"
+    voice "audio/Mac_Line5.wav"
     all "but what you would like to call me?"
     pause(2)
 
@@ -170,8 +168,8 @@ label a2_reset_choice:
     "Which computer terminal do you approach?"
     menu:
         "iMac G3":
-            jump name_Mac
+            jump name_mac
         "TI-99/4A":
-            jump name_Ti
+            jump name_ti
         "Magnavox Odyssey":
             jump name_ody

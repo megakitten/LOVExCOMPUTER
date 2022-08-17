@@ -56,10 +56,7 @@ label mac_questions:
 
     mac "Can I ask you a question?"
     "Sure!"
-
-
-
-    mac "Aren't we both artists? What makes us so different"
-    "I never said I was an artist"
+    mac "What makes us so different?"
+    "..."
     ###Bell triple ding sfx
     jump date_end

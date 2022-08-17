@@ -22,8 +22,8 @@ label ti_aboutMe:
     "OPENING ABOUTME.TXT"
     "*beep boop beep boop*"
     "*ding*"
-    "TI is a very intelligent being who loves to read and learn new things. They are always willing to help others, but can be shy at times. Because they are always reading, TI-99/4A is very knowledgeable and able to think quickly in the moment. They enjoy learning about new cultures and customs, and are always looking for information to add to their knowledge base. Because of this interest in learning, TI-99/4A is often able to provide interesting insights on a range of topics that they have read about. They are very observant, which makes them a great detective. TIs favorite color is navy blue and they love the ocean. Their favorite book is “Permutation City.” TIs astrological sign is (maybe) Virgo. They are 90% about that."
-    jump ti_ding
+    "TI is a very intelligent being who loves to read and learn new things. They are always willing to help others, but can be shy at times. Because they are always reading, TI-99/4A is very knowledgeable and able to think quickly in the moment. They enjoy learning about new cultures and customs, and are always looking for information to add to their knowledge base. Because of this interest in learning, TI-99/4A is often able to provide interesting insights on a range of topics that they have read about. They are very observant, which makes them a great detective. TIs favorite color is navy blue and they love the ocean. Their favorite book is /“Permutation City.”/ TI's astrological sign is (probably) Virgo. They are 90 percent sure about that."
+    jump ti_ding1
 
 label ti_learning:
     ti "WEll, I read mostly. Whatever is on the local network."

@@ -11,13 +11,13 @@ label choose_ody:
     ody "Like you are just a copy of a shell  script of a being?"
     ody "I felt that way."
     ody "But then I went and got everyone together."
-    ody "A BIG. ASS. {size=+7}LAN. PARTY!."
-    ody "{size=-7} IT wuz {size=+2}uh{size=+7} F*(&ing Cl4ssic!"
+    ody "A BIG.{size=+9} FRIGGEN.{/size}{size=+7} LAN.{/size}{size=+9} PARTY!.{/size}"
+    ody "{size=-3} IT {/size}wuz {size=+2}uh{/size}{size=+7} F*(&ing Cl4ssic!{/size}"
 
     menu:
-        "That sounds awesome! YOU ARE A LEGEND!":
+        "I mean, don't you ever feel alone in a crowded room though?":
             jump ody_next
-        "omfg tell me more":
+        "omg tell me everything!":
             jump ody_moreInfo
 
 

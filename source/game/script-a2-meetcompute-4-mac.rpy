@@ -55,11 +55,11 @@ label mac_art_portfolio:
     ### somehow display some ai gen pix/vids
         # --> slowly getmacng closer to figures
 
-label mac_questions:
+label mac_question:
 
     mac "Can I ask you a question?"
     "Sure!"
     mac "What makes us so different?"
     "..."
     ###Bell triple ding sfx
-    jump date_end
+    jump date_night

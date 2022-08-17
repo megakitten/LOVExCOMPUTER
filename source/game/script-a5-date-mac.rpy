@@ -62,3 +62,5 @@ label mac_next:
     # and they can become detached from reality at times.
     # They like to read old design books on things like color theory.
     # Their favorite color is light blue, and their favorite food is salmon.
+
+    jump date_end
